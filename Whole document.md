@@ -229,11 +229,7 @@ This CITS SIARD specification has been written during the eArchiving building bl
 
 ###   3.1 Folder structure and example
 
-A visualisation of an example of a valid CITS SIARD-package is illustrated in Figure 4. The example and other examples can also be found as downloadable packages at this link: [https://github.com/DILCISBoard/SIARD-CITS/tree/master/examples](https://github.com/DILCISBoard/SIARD-CITS/tree/master/examples). The example is an information package where a database has LOBs that resides outside the .siard-file. See LOB details under section 
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "3.7 {SIARD_lobs} – requirements"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[3.7 {SIARD_lobs} – requirements](#heading=h.sxv4sbhj2v7i).
+A visualisation of an example of a valid CITS SIARD-package is illustrated in Figure 4. The example and other examples can also be found as downloadable packages at this link: [https://github.com/DILCISBoard/SIARD-CITS/tree/master/examples](https://github.com/DILCISBoard/SIARD-CITS/tree/master/examples). The example is an information package where a database has LOBs that resides outside the .siard-file. See LOB details under section [3.7 {SIARD_lobs} – requirements]
 
 
 
