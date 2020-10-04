@@ -225,7 +225,8 @@ This CITS SIARD specification has been written during the eArchiving building bl
 
 ###   3.1 Folder structure and example
 
-A visualisation of an example of a valid CITS SIARD-package is illustrated in Figure 4. The example and other examples can also be found as downloadable packages at this link: [https://github.com/DILCISBoard/SIARD-CITS/tree/master/examples](https://github.com/DILCISBoard/SIARD-CITS/tree/master/examples). The example is an information package where a database has LOBs that resides outside the .siard-file. See LOB details under section 3.7 {SIARD_lobs} – requirements (#_sxv4sbhj2v7i)
+A visualisation of an example of a valid CITS SIARD-package is illustrated in Figure 4. The example and other examples can also be found as downloadable packages at this link: [https://github.com/DILCISBoard/SIARD-CITS/tree/master/examples](https://github.com/DILCISBoard/SIARD-CITS/tree/master/examples). The example is an information package where a database has LOBs that resides outside the .siard-file. See LOB details under section [3.8 {SIARD_lobs} -- requirements](#_sxv4sbhj2v7i) 14
+
 
  ![](pictures/Information_Package_folder_structure.png)
 
