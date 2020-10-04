@@ -240,8 +240,7 @@ This CITS SIARD specification has been written during the eArchiving building bl
 ## 3 CITS SIARD Requirements
 
 
-### 
-    3.1 Folder structure and example
+###   3.1 Folder structure and example
 
 A visualisation of an example of a valid CITS SIARD-package is illustrated in Figure 4. The example and other examples can also be found as downloadable packages at this link: [https://github.com/DILCISBoard/SIARD-CITS/tree/master/examples](https://github.com/DILCISBoard/SIARD-CITS/tree/master/examples). The example is an information package where a database has LOBs that resides outside the .siard-file. See LOB details under section 
 
@@ -260,8 +259,7 @@ A visualisation of an example of a valid CITS SIARD-package is illustrated in Fi
 **Figure 4: Information Package folder structure**
 
 
-### 
-    3**.2 Package and Representation METS**
+### 3**.2 Package and Representation METS**
 
 A CSIP can consist of zero to many representations, and this is an important feature that needs to be taken into consideration when packing SIARD files within CSIPs. 
 
@@ -306,8 +304,7 @@ As for this specification there always needs to be a minimum of one representati
 
 
 
-### 
-    2**.3 Package METS requirements**
+### 2**.3 Package METS requirements**
 
 
 <table>
@@ -445,8 +442,7 @@ Example 1: Package METS element example.
 
 
 
-### 
-    3.4** Representation METS requirements**
+### 3.4** Representation METS requirements**
 
 
 <table>
@@ -544,8 +540,7 @@ fileSec/fileGrp/file@csip:OTHERCONTENTINFORMATIONTYPE
 
 
 
-### 
-    3.5** METS requirements between Package and Representation **
+### 3.5** METS requirements between Package and Representation **
 
 
 <table>
@@ -577,8 +572,7 @@ mets/@TYPE
 
 
 
-### 
-    3.6 {SIARD_1.0, SIARD2.0, SIARD2.1} – requirements
+### 3.6 {SIARD_1.0, SIARD2.0, SIARD2.1} – requirements
 
 
 <table>
@@ -650,8 +644,7 @@ SHOULD
 
 
 
-### 
-    3.7 {Database_dump} – requirements
+### 3.7 {Database_dump} – requirements
 
 
     For authenticity and possible dissemination purposes, the OAIS might want to have a representation with a proprietary database dump from the original database management system.
@@ -696,8 +689,7 @@ SHOULD
 
 
 
-### 
-    3.8 {SIARD_lobs} – requirements
+### 3.8 {SIARD_lobs} – requirements
 
 A relational database can consist solely of table data, but it can as easily have large objects (LOBs). Large object (LOB) is the common description for large character content (CLOB) or large binary (BLOB) content - such as video, sound, images, word processing documents etc.
 
@@ -746,8 +738,7 @@ For storage and preservation actions the OAIS can decide to handle LOBs in its o
 ## 4 SIP requirements
 
 
-### 
-    4.1 Submission Agreement requirements
+### 4.1 Submission Agreement requirements
 
 There should be a submission agreement in the SIP representation that has been tailored to handle preservation of relational databases. Since no standard for submission agreements for databases exist yet, the following requirements are not yet able to be automatically validated at this specification level. It is up to the business specific specification layer or local implementation layer (see 1.2 Layered Data Model) to set up requirements that can be automatically validated.
 
