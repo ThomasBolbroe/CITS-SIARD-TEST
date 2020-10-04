@@ -7,7 +7,9 @@ This E-ARK specification is part of a family of specifications that provide a co
 
 The foundation for these specifications is the Reference Model for an Open Archival Information System (OAIS) which has Information Packages at its core. Familiarity with the core functional entities of OAIS is a prerequisite for understanding the specifications. A visualisation of the current specification network can be seen here:
 
-   ![](pictures/Data_Model_Structure.png)
+ 
+  ![](pictures/The_E-ARK_specification_dependency_hierarchy.png)
+ 
    
   **The E-ARK specification dependency hierarchy**
  
@@ -179,12 +181,7 @@ The purpose of this document is to describe the Content Information Type Specifi
 
 This section introduces the structure of the data model, which is based on a layered approach for information package definitions (Figure x). The Common Specification for Information Packages (CSIP) forms the outermost layer. The general SIP, AIP and DIP specifications add, respectively, submission, archiving and dissemination information to the CSIP specification. The third layer of the model represents specific content information type specifications, such as this CITS SIARD specification. Additional layers for business-specific specifications and local variant implementations of any specification can be added. 
 
-
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.png "image_tooltip")
+ ![](pictures/Data_Model_Structure.png)
 
 
 **Figure x: Data Model Structure**
@@ -243,7 +240,7 @@ A visualisation of an example of a valid CITS SIARD-package is illustrated in Fi
 <p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image3.png "image_tooltip")
+ ![](pictures/Information_Package_folder_structure.png)
 
 
 **Figure 4: Information Package folder structure**
