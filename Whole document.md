@@ -4,8 +4,9 @@
 
 
 
-1. **Preface**
-    ### 1.1 Aim of the specification
+## 1 Preface
+
+### 1.1 Aim of the specification
 
 This E-ARK specification is part of a family of specifications that provide a common set of requirements for packaging digital information. These specifications are based on common, international standards for transmitting, describing and preserving digital data. They have been produced to help data creators, software developers and digital archives tackle the challenge of short-, medium- and long-term data management and reuse in a sustainable, authentic, cost-efficient, manageable and interoperable way. 
 
@@ -109,13 +110,13 @@ The number of possible Content Information Type Specifications is unlimited.
 
 
 
-    1.2 **Organisational support**
+### 1.2 Organisational support
 
 This specification is maintained by the Digital Information LifeCycle Interoperability Standards Board (DILCIS Board). The DILCIS Board ([http://dilcis.eu/](http://dilcis.eu/)) was created to enhance and maintain the draft specifications developed in the European Archival Records and Knowledge Preservation Project (E-ARK project) which concluded in January 2017 ([http://eark-project.com/](http://eark-project.com/)<span style="text-decoration:underline;">)</span>. The Board consists of eight members, but there is no restriction on the number of participants in the work. All Board documents and specifications are stored in GitHub ([https://github.com/DILCISBoard](https://github.com/DILCISBoard)) while published versions are made available on the Board webpage. Since 2018 the DILCIS Board has been responsible for the core specifications in the Connecting Europe Facility eArchiving Building Block ([https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eArchiving](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eArchiving)<span style="text-decoration:underline;">)</span>.
 
 
 
-    1.3 **Authors**
+### 1.3 Authors
 
 A full list of contributors to this specification, as well as the revision history can be found in Appendix 1.
 
