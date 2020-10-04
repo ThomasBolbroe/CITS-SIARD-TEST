@@ -1,8 +1,3 @@
-# New Document
-
-
-
-
 
 ## 1 Preface
 
@@ -12,12 +7,7 @@ This E-ARK specification is part of a family of specifications that provide a co
 
 The foundation for these specifications is the Reference Model for an Open Archival Information System (OAIS) which has Information Packages at its core. Familiarity with the core functional entities of OAIS is a prerequisite for understanding the specifications. A visualisation of the current specification network can be seen here:
 
-
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
+![](pictures/Data_Model_Structure.png)
 
 
 **The E-ARK specification dependency hierarchy**
