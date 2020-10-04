@@ -7,9 +7,10 @@ This E-ARK specification is part of a family of specifications that provide a co
 
 The foundation for these specifications is the Reference Model for an Open Archival Information System (OAIS) which has Information Packages at its core. Familiarity with the core functional entities of OAIS is a prerequisite for understanding the specifications. A visualisation of the current specification network can be seen here:
 
-        ![](pictures/Data_Model_Structure.png)
+   ![](pictures/Data_Model_Structure.png)
+   
   **The E-ARK specification dependency hierarchy**
-
+ 
 
 <table>
   <tr>
