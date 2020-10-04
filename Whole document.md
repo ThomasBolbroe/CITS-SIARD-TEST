@@ -291,7 +291,7 @@ As for this specification there always needs to be a minimum of one representati
 
 
 
-### 2.3 Package METS requirements
+### 3.3 Package METS requirements
 
 
 <table>
