@@ -5,7 +5,7 @@
 
 
 1. **Preface**
-    1.1 **Aim of the specification**
+    ### 1.1 Aim of the specification
 
 This E-ARK specification is part of a family of specifications that provide a common set of requirements for packaging digital information. These specifications are based on common, international standards for transmitting, describing and preserving digital data. They have been produced to help data creators, software developers and digital archives tackle the challenge of short-, medium- and long-term data management and reuse in a sustainable, authentic, cost-efficient, manageable and interoperable way. 
 
