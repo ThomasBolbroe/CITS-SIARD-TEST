@@ -184,7 +184,7 @@ This section introduces the structure of the data model, which is based on a lay
  ![](pictures/Data_Model_Structure.png)
 
 
-**Figure x: Data Model Structure**
+**Figure 1: Data Model Structure**
 
 Every level in the data model structure inherits metadata entities and elements from the higher levels. In order to increase adoption, a flexible schema has been developed. This will allow for extension points where the schema in each layer can be extended to accommodate additional information on the next specific layer until, finally, the local implementation can add specific entities or metadata elements to satisfy very specific local needs. Extension points can be implemented by:
 
