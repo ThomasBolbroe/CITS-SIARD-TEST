@@ -240,7 +240,7 @@ As for this specification there always needs to be a minimum of one representati
    </td>
    <td>There <strong>MUST </strong>be minimum one representation and therefore minimum one Package METS.xml and minimum one Representation METS.xml in a CITS SIARD package.
    </td>
-   {::nomarkdown}<td>1..1
+   <td>1..1
 <p>
       MUST
    </td>{:/}
