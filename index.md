@@ -242,7 +242,7 @@ As for this specification there always needs to be a minimum of one representati
    </td>
    <td>1..1
 <p>
-      MUST
+      MUST {::nomarkdown}
    </td>
   </tr>
 </table>
