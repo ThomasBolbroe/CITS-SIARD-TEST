@@ -12,6 +12,12 @@ The foundation for these specifications is the Reference Model for an Open Archi
  
    
   **The E-ARK specification dependency hierarchy**
+  
+  | Specification | Aim and goals |   |   |
+|---------------|---------------|---|---|
+| Lol           | Lol1          |   |   |
+| Lol2          | Lol3          |   |   |
+|               |               |   |   |
  
 
 <table>
