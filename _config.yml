@@ -6,5 +6,7 @@ relative_links:
 include:
   - README.md
   - index.md
+kramdown:
+  html_to_native: true
 
 theme: jekyll-theme-cayman
