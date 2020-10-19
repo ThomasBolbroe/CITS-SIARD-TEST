@@ -14,90 +14,123 @@ The foundation for these specifications is the Reference Model for an Open Archi
    
   **The E-ARK specification dependency hierarchy**
  
-<table>
-  <tr>
-   <td>Specification
-   </td>
-   <td>Aim and Goals
-   </td>
-  </tr>
-  <tr>
-   <td>Common Specification for Information Packages
-   </td>
-   <td>This document introduces the concept of a Common Specification for Information Packages (CSIP). Its three main purposes are to: 
-<ul>
-
-<li>Establish a common understanding of the requirements which need to be met in order to achieve interoperability of Information Packages.
-
-<li>Establish a common base for the development of more specific Information Package definitions and tools within the digital preservation community.
-
-<li>Propose the details of an XML-based implementation of the requirements using, to the largest possible extent, standards which are widely used in international digital preservation. 
-
-<p>
-Ultimately the goal of the Common Specification is to reach a level of interoperability between all Information Packages so that tools implementing the Common Specification can be adopted by institutions without the need for further modifications or adaptations.
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>E-ARK SIP
-   </td>
-   <td>The main aims of this specification are to:
-<ul>
-
-<li>Define a general structure for a Submission Information Package format suitable for a wide variety of archival scenarios, e.g. document and image collections, databases or geographical data.
-
-<li>Enhance interoperability between Producers and Archives.
-
-<li>Recommend best practices regarding metadata, content and structure of Submission Information Packages.
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>E-ARK AIP
-   </td>
-   <td>The main aims of this specification are to:
-<ul>
-
-<li>Define a generic structure of the AIP format suitable for a wide variety of data types, such as document and image collections, archival records, databases or geographical data.
-
-<li>Recommend a set of metadata related to the structural and the preservation aspects of the AIP as implemented by the reference implementation eArchiving ToolBox (formerly earkweb).
-
-<li>Ensure the format is suitable to store large quantities of data.
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>E-ARK DIP
-   </td>
-   <td>The main aims of this specification are to:
-<ul>
-
-<li>Define a generic structure of the DIP format suitable for a wide variety of archival records, such as document and image collections, databases or geographical data.
-
-<li>Recommend a set of metadata related to the structural and access aspects of the DIP.
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>Content Information Type Specifications
-   </td>
-   <td>The main aim and goal of a Content Information Type Specification is to:
-<ul>
-
-<li>Define, in technical terms, how data and metadata must be formatted and placed within a CSIP Information Package in order to achieve interoperability in exchanging specific Content Information.
-
-<p>
-The number of possible Content Information Type Specifications is unlimited. 
-</li>
-</ul>
-   </td>
-  </tr>
-</table>
-
++----------------------------------+----------------------------------+
+| Specification                    | Aim and Goals                    |
++==================================+==================================+
+| Common Specification for         | This document introduces the     |
+| Information Packages             | concept of a Common              |
+|                                  | Specification for Information    |
+|                                  | Packages (CSIP). Its three main  |
+|                                  | purposes are to:                 |
+|                                  |                                  |
+|                                  | -   Establish a common           |
+|                                  |     understanding of the         |
+|                                  |     requirements which need to   |
+|                                  |     be met in order to achieve   |
+|                                  |     interoperability of          |
+|                                  |     Information Packages.        |
+|                                  |                                  |
+|                                  | -   Establish a common base for  |
+|                                  |     the development of more      |
+|                                  |     specific Information Package |
+|                                  |     definitions and tools within |
+|                                  |     the digital preservation     |
+|                                  |     community.                   |
+|                                  |                                  |
+|                                  | -   Propose the details of an    |
+|                                  |     XML-based implementation of  |
+|                                  |     the requirements using, to   |
+|                                  |     the largest possible extent, |
+|                                  |     standards which are widely   |
+|                                  |     used in international        |
+|                                  |     digital preservation.        |
+|                                  |                                  |
+|                                  | Ultimately the goal of the       |
+|                                  | Common Specification is to reach |
+|                                  | a level of interoperability      |
+|                                  | between all Information Packages |
+|                                  | so that tools implementing the   |
+|                                  | Common Specification can be      |
+|                                  | adopted by institutions without  |
+|                                  | the need for further             |
+|                                  | modifications or adaptations.    |
++----------------------------------+----------------------------------+
+| E-ARK SIP                        | The main aims of this            |
+|                                  | specification are to:            |
+|                                  |                                  |
+|                                  | -   Define a general structure   |
+|                                  |     for a Submission Information |
+|                                  |     Package format suitable for  |
+|                                  |     a wide variety of archival   |
+|                                  |     scenarios, e.g. document and |
+|                                  |     image collections, databases |
+|                                  |     or geographical data.        |
+|                                  |                                  |
+|                                  | -   Enhance interoperability     |
+|                                  |     between Producers and        |
+|                                  |     Archives.                    |
+|                                  |                                  |
+|                                  | -   Recommend best practices     |
+|                                  |     regarding metadata, content  |
+|                                  |     and structure of Submission  |
+|                                  |     Information Packages.        |
++----------------------------------+----------------------------------+
+| E-ARK AIP                        | The main aims of this            |
+|                                  | specification are to:            |
+|                                  |                                  |
+|                                  | -   Define a generic structure   |
+|                                  |     of the AIP format suitable   |
+|                                  |     for a wide variety of data   |
+|                                  |     types, such as document and  |
+|                                  |     image collections, archival  |
+|                                  |     records, databases or        |
+|                                  |     geographical data.           |
+|                                  |                                  |
+|                                  | -   Recommend a set of metadata  |
+|                                  |     related to the structural    |
+|                                  |     and the preservation aspects |
+|                                  |     of the AIP as implemented by |
+|                                  |     the reference implementation |
+|                                  |     eArchiving ToolBox (formerly |
+|                                  |     earkweb).                    |
+|                                  |                                  |
+|                                  | -   Ensure the format is         |
+|                                  |     suitable to store large      |
+|                                  |     quantities of data.          |
++----------------------------------+----------------------------------+
+| E-ARK DIP                        | The main aims of this            |
+|                                  | specification are to:            |
+|                                  |                                  |
+|                                  | -   Define a generic structure   |
+|                                  |     of the DIP format suitable   |
+|                                  |     for a wide variety of        |
+|                                  |     archival records, such as    |
+|                                  |     document and image           |
+|                                  |     collections, databases or    |
+|                                  |     geographical data.           |
+|                                  |                                  |
+|                                  | -   Recommend a set of metadata  |
+|                                  |     related to the structural    |
+|                                  |     and access aspects of the    |
+|                                  |     DIP.                         |
++----------------------------------+----------------------------------+
+| Content Information Type         | The main aim and goal of a       |
+| Specifications                   | Content Information Type         |
+|                                  | Specification is to:             |
+|                                  |                                  |
+|                                  | -   Define, in technical terms,  |
+|                                  |     how data and metadata must   |
+|                                  |     be formatted and placed      |
+|                                  |     within a CSIP Information    |
+|                                  |     Package in order to achieve  |
+|                                  |     interoperability in          |
+|                                  |     exchanging specific Content  |
+|                                  |     Information.                 |
+|                                  |                                  |
+|                                  | The number of possible Content   |
+|                                  | Information Type Specifications  |
+|                                  | is unlimited.                    |
++----------------------------------+----------------------------------+
 
 
 
