@@ -113,52 +113,52 @@ A full list of contributors to this specification, as well as the revision histo
 
 **TABLE OF CONTENTS**
 
-**[2 Context](#context)** **4**
+**[2 Context](#context)** 
 
-> [2.1 Purpose](#purpose) 4
+> [2.1 Purpose](#purpose) 
 >
-> [2.2 Layered data model](#layered-data-model) 5
+> [2.2 Layered data model](#layered-data-model) 
 >
 > [2.3 The boundaries of this specification and the
-> SIARD-specification](#_awb2q9n7ozcq) 6
+> SIARD-specification](#_awb2q9n7ozcq) 
 
-**[3 CITS SIARD Requirements](#cits-siard-requirements)** **8**
+**[3 CITS SIARD Requirements](#cits-siard-requirements)** 
 
-> [3.1 Folder structure and example](#folder-structure-and-example) 8
+> [3.1 Folder structure and example](#folder-structure-and-example) 
 >
 > [3.2 Package and Representation
-> METS](#package-and-representation-mets) 10
+> METS](#package-and-representation-mets) 
 >
-> [2.3 Package METS requirements](#package-mets-requirements) 10
+> [2.3 Package METS requirements](#package-mets-requirements) 
 >
 > [3.4 Representation METS
-> requirements](#representation-mets-requirements) 12
+> requirements](#representation-mets-requirements) 
 >
 > [3.5 METS requirements between Package and
 > Representation](#mets-requirements-between-package-and-representation)
 > 12
 >
 > [3.6 {SIARD_1.0, SIARD2.0, SIARD2.1} --
-> requirements](#siard_1.0-siard2.0-siard2.1-requirements) 13
+> requirements](#siard_1.0-siard2.0-siard2.1-requirements) 
 >
-> [3.7 {Database_dump} -- requirements](#database_dump-requirements) 14
->
-> [3.8 {SIARD_lobs} -- requirements](#_sxv4sbhj2v7i) 14
+> [3.7 {Database_dump} -- requirements](#database_dump-requirements) 
 
-**[4 SIP requirements](#_8knc2ib75ldo)** **15**
+> [3.8 {SIARD_lobs} -- requirements](#_sxv4sbhj2v7i) 
+
+**[4 SIP requirements](#_8knc2ib75ldo)** 
 
 > [4.1 Submission Agreement
-> requirements](#submission-agreement-requirements) 15
+> requirements](#submission-agreement-requirements) 
 
-**[5 AIP requirements](#aip-requirements)** **16**
+**[5 AIP requirements](#aip-requirements)** 
 
-**[6 DIP requirements](#dip-requirements)** **16**
+**[6 DIP requirements](#dip-requirements)** 
 
-**[7 Documentation requirements](#documentation-requirements)** **16**
+**[7 Documentation requirements](#documentation-requirements)** 
 
-**[Glossary](#glossary)** **18**
+**[Glossary](#glossary)** 
 
-**[Postface](#postface)** **19**
+**[Postface](#postface)** 
 
 **LIST OF FIGURES**
 
