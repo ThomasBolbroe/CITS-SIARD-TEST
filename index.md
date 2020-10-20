@@ -262,13 +262,13 @@ and Usage</th>
 	<tr>
 		<td>SIARD_2 Ref CSIP2 </td>
 		<td>Type mets/\@TYPE </td>
-		<td>For information packages that primarily contain relational databases the value in Package mets/\@TYPE **MUST** be &quot;Databases&quot; as taken from the CSIP Vocabulary for [Content Category] (about:blank).</td>
+		<td>For information packages that primarily contain relational databases the value in Package mets/\@TYPE <b>MUST</b> be &quot;Databases&quot; as taken from the CSIP Vocabulary for [Content Category] (about:blank).</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_3 Ref CSIP4 </td>
 		<td>Content Information Type Specification mets/\ @csip:CONTENTI NFORMATIONTYPE </td>
-		<td>For information packages that primarily contain relational databases the value in Package mets/\ @csip:CONTENTI NFORMATIONTYPE **MUST** be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] (about:blank).</td>
+		<td>For information packages that primarily contain relational databases the value in Package mets/\ @csip:CONTENTI NFORMATIONTYPE <b>must</b> be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] (about:blank).</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
@@ -280,25 +280,25 @@ and Usage</th>
 	<tr>
 		<td>SIARD_5 Ref CSIP6 </td>
 		<td>METS Profile mets/\@PROFILE </td>
-		<td>For information packages that primarily contain relational databases the value in the \@PROFILE **MUST** be \&quot;https: //SIARD.dilcis .eu/profile/CI TS_SIARD.xml\&quot;</td>
+		<td>For information packages that primarily contain relational databases the value in the \@PROFILE <b>must</b> be \&quot;https: //SIARD.dilcis .eu/profile/CI TS_SIARD.xml\&quot;</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_6 Ref CSIP62 </td>
 		<td>fileSec Representation Content Information Type Specification mets/file Sec/fileGrp\[\ @USE=\&#39;Represe ntations\&#39;\]/\ @csip:CONTENTI NFORMATIONTYPE </td>
-		<td>There **MUST** be a minimum of one mets/file Sec/fileGrp\[\ @USE=\&#39;Represe ntations\&#39;\]/\ @csip:CONTENTI NFORMATIONTYPE with the value &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type ](about:blank) that direct to the representation METS.xml in the representation containing a relational database.</td>
+		<td>There <b>MUST</b> be a minimum of one mets/file Sec/fileGrp\[\ @USE=\&#39;Represe ntations\&#39;\]/\ @csip:CONTENTI NFORMATIONTYPE with the value &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type ](about:blank) that direct to the representation METS.xml in the representation containing a relational database.</td>
 		<td>1..n MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_7 Ref CSIP63 </td>
 		<td>fileSec Other Content Information Type Specification mets/fileSec /fileGrp\[\@cs ip:CONTENTINFO RMATIONTYPE=\&#39; CITS_SIARD \&#39;\]/\@csip :OTHERCONTENTI NFORMATIONTYPE </td>
-		<td>For any mets/file Sec/fileGrp\[\ @csip:CONTENTI NFORMATIONTYPE with the value &quot;CITS_SIARD&quot; there **MUST** be a \@csip :OTHERCONTENTI NFORMATIONTYPE attribute with a value taken from the vocabulary {SIARD_1.0; SIARD_2.0, SIARD_2.1, D atabase_dump}.</td>
+		<td>For any mets/file Sec/fileGrp\[\ @csip:CONTENTI NFORMATIONTYPE with the value &quot;CITS_SIARD&quot; there <b>MUST</b> be a \@csip :OTHERCONTENTI NFORMATIONTYPE attribute with a value taken from the vocabulary {SIARD_1.0; SIARD_2.0, SIARD_2.1, D atabase_dump}.</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_8 Ref C SIP105-CSIP112 </td>
 		<td>StructMap METS pointer </td>
-		<td>For any fileGrp/\ @csip:CONTENTI NFORMATIONTYPE with the value &quot;CITS_SIARD&quot; there **MUST** be a corresponding \@div- representation in the Str uctMap-element</td>
+		<td>For any fileGrp/\ @csip:CONTENTI NFORMATIONTYPE with the value &quot;CITS_SIARD&quot; there <b>MUST</b> be a corresponding \@div- representation in the Str uctMap-element</td>
 		<td>1..1 MUST </td>
 	</tr>
 </tbody>
@@ -334,31 +334,31 @@ and Usage</th>
 	<tr>
 		<td>SIARD_9 Ref CSIP2 </td>
 		<td>Type mets/\@TYPE </td>
-		<td>For r epresentations that primarily contain relational databases the value in Package mets/\@TYPE **MUST** be &quot;Databases&quot; as taken from the CSIP Vocabulary for [Content Category] (about:blank).</td>
+		<td>For r epresentations that primarily contain relational databases the value in Package mets/\@TYPE <b>MUST</b> be &quot;Databases&quot; as taken from the CSIP Vocabulary for [Content Category] (about:blank).</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_10 Ref CSIP4 </td>
 		<td>Content Information Type Specification mets/\ @csip:CONTENTI NFORMATIONTYPE </td>
-		<td>For r epresentations that primarily contain relational databases and that conforms to CITS SIARD the value in Package mets/\ @csip:CONTENTI NFORMATIONTYPE **MUST** be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] (about:blank).</td>
+		<td>For r epresentations that primarily contain relational databases and that conforms to CITS SIARD the value in Package mets/\ @csip:CONTENTI NFORMATIONTYPE <b>MUST</b> be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] (about:blank).</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_11 Ref CSIP5 </td>
 		<td>Other Content Information Type Specification mets/\@csip :OTHERCONTENTI NFORMATIONTYPE </td>
-		<td>For r epresentations where mets/\ @csip:CONTENTI NFORMATIONTYPE has the value &quot;CITS_SIARD&quot; then mets/\@csip :OTHERCONTENTI NFORMATIONTYPE **MUST** have a value taken from the vocabulary {SIARD_1.0; SIARD_2.0, SIARD_2.1, Database_dump}</td>
+		<td>For r epresentations where mets/\ @csip:CONTENTI NFORMATIONTYPE has the value &quot;CITS_SIARD&quot; then mets/\@csip :OTHERCONTENTI NFORMATIONTYPE <b>MUST</b> have a value taken from the vocabulary {SIARD_1.0; SIARD_2.0, SIARD_2.1, Database_dump}</td>
 		<td>0..0 NOT </td>
 	</tr>
 	<tr>
 		<td>SIARD_12 Ref CSIP6 </td>
 		<td>METS Profile mets/\@PROFILE </td>
-		<td>For information packages that primarily contain relational databases the value in the \@PROFILE **MUST** be \&quot;https:/ /SIARD.dilcis. eu/profile/CIT S_SIARD_repres entation.xml\&quot;</td>
+		<td>For information packages that primarily contain relational databases the value in the \@PROFILE <b>MUST</b> be \&quot;https:/ /SIARD.dilcis. eu/profile/CIT S_SIARD_repres entation.xml\&quot;</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_13 Ref CSIP64-CSIP79 </td>
 		<td>File Pointer fileSec/file Grp/file\@csip :OTHERCONTENTI NFORMATIONTYPE </td>
-		<td>If the value in mets/\@csip :OTHERCONTENTI NFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1, Database_dump} then there **MUST** exist one and only one file in the fileGrp with \@USE = &quot;data&quot; with an identical value in fileSec/file Grp/file\@csip :OTHERCONTENTI NFORMATIONTYPE that is used to locate the relevant database file.</td>
+		<td>If the value in mets/\@csip :OTHERCONTENTI NFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1, Database_dump} then there <b>MUST</b> exist one and only one file in the fileGrp with \@USE = &quot;data&quot; with an identical value in fileSec/file Grp/file\@csip :OTHERCONTENTI NFORMATIONTYPE that is used to locate the relevant database file.</td>
 		<td>1..1 MUST </td>
 	</tr>
 </tbody>
@@ -384,31 +384,31 @@ and Usage</th>
 	<tr>
 		<td>SIARD_9 Ref CSIP2 </td>
 		<td>Type mets/\@TYPE </td>
-		<td>For r epresentations that primarily contain relational databases the value in Package mets/\@TYPE **MUST** be &quot;Databases&quot; as taken from the CSIP Vocabulary for [Content Category] (about:blank).</td>
+		<td>For r epresentations that primarily contain relational databases the value in Package mets/\@TYPE <b>MUST</b> be &quot;Databases&quot; as taken from the CSIP Vocabulary for [Content Category] (about:blank).</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_10 Ref CSIP4 </td>
 		<td>Content Information Type Specification mets/\ @csip:CONTENTI NFORMATIONTYPE </td>
-		<td>For r epresentations that primarily contain relational databases and that conforms to CITS SIARD the value in Package mets/\ @csip:CONTENTI NFORMATIONTYPE **MUST** be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] (about:blank).</td>
+		<td>For r epresentations that primarily contain relational databases and that conforms to CITS SIARD the value in Package mets/\ @csip:CONTENTI NFORMATIONTYPE <b>MUST</b> be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] (about:blank).</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_11 Ref CSIP5 </td>
 		<td>Other Content Information Type Specification mets/\@csip :OTHERCONTENTI NFORMATIONTYPE </td>
-		<td>For r epresentations where mets/\ @csip:CONTENTI NFORMATIONTYPE has the value &quot;CITS_SIARD&quot; then mets/\@csip :OTHERCONTENTI NFORMATIONTYPE **MUST** have a value taken from the vocabulary {SIARD_1.0; SIARD_2.0, SIARD_2.1, Database_dump}</td>
+		<td>For r epresentations where mets/\ @csip:CONTENTI NFORMATIONTYPE has the value &quot;CITS_SIARD&quot; then mets/\@csip :OTHERCONTENTI NFORMATIONTYPE <b>MUST</b> have a value taken from the vocabulary {SIARD_1.0; SIARD_2.0, SIARD_2.1, Database_dump}</td>
 		<td>0..0 NOT </td>
 	</tr>
 	<tr>
 		<td>SIARD_12 Ref CSIP6 </td>
 		<td>METS Profile mets/\@PROFILE </td>
-		<td>For information packages that primarily contain relational databases the value in the \@PROFILE **MUST** be \&quot;https:/ /SIARD.dilcis. eu/profile/CIT S_SIARD_repres entation.xml\&quot;</td>
+		<td>For information packages that primarily contain relational databases the value in the \@PROFILE <b>MUST</b> be \&quot;https:/ /SIARD.dilcis. eu/profile/CIT S_SIARD_repres entation.xml\&quot;</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_13 Ref CSIP64-CSIP79 </td>
 		<td>File Pointer fileSec/file Grp/file\@csip :OTHERCONTENTI NFORMATIONTYPE </td>
-		<td>If the value in mets/\@csip :OTHERCONTENTI NFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1, Database_dump} then there **MUST** exist one and only one file in the fileGrp with \@USE = &quot;data&quot; with an identical value in fileSec/file Grp/file\@csip :OTHERCONTENTI NFORMATIONTYPE that is used to locate the relevant database file.</td>
+		<td>If the value in mets/\@csip :OTHERCONTENTI NFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1, Database_dump} then there <b>MUST</b> exist one and only one file in the fileGrp with \@USE = &quot;data&quot; with an identical value in fileSec/file Grp/file\@csip :OTHERCONTENTI NFORMATIONTYPE that is used to locate the relevant database file.</td>
 		<td>1..1 MUST </td>
 	</tr>
 </tbody>
@@ -433,31 +433,31 @@ Usage</th>
 	<tr>
 		<td>SIARD_15 </td>
 		<td> </td>
-		<td>If the value in met s/\@csip:OTHERCONT ENTINFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1} then there **MUST** exist a file named \[da tabaseName\].siard in represe ntations/\[Represe ntationName\]/data</td>
+		<td>If the value in met s/\@csip:OTHERCONT ENTINFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1} then there <b>MUST</b> exist a file named \[da tabaseName\].siard in represe ntations/\[Represe ntationName\]/data</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_16 </td>
 		<td> </td>
-		<td>The SIARD version of the SIARD-file **MUST** be the same as the version provided in met s/\@csip:OTHERCONT ENTINFORMATIONTYPE and fileSec/fileGrp/fi le\@csip:OTHERCONT ENTINFORMATIONTYPE</td>
+		<td>The SIARD version of the SIARD-file <b>MUST</b> be the same as the version provided in met s/\@csip:OTHERCONT ENTINFORMATIONTYPE and fileSec/fileGrp/fi le\@csip:OTHERCONT ENTINFORMATIONTYPE</td>
 		<td>MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_17 </td>
 		<td> </td>
-		<td>The representati ons/\[Representati onName\]/data/\[da tabaseName\].siard **SHOULD** be a valid SIARD file</td>
+		<td>The representati ons/\[Representati onName\]/data/\[da tabaseName\].siard <b>SHOULD</b> be a valid SIARD file</td>
 		<td>SHOULD </td>
 	</tr>
 	<tr>
 		<td>SIARD_18 </td>
 		<td> </td>
-		<td>There **SHOULD** be minimum one validation report in the documentation folder for the validation of the SIARD-file</td>
+		<td>There <b>SHOULD</b> be minimum one validation report in the documentation folder for the validation of the SIARD-file</td>
 		<td>1..n SHOULD </td>
 	</tr>
 	<tr>
 		<td>SIARD_19 </td>
 		<td> </td>
-		<td>The file name of the SIARD file representati ons/\[Representati onName\]/data/\[da tabaseName\].siard **MAY** be the short database identifier of the database as specified in the \&lt;dbname\&gt; element of the metadata.xml file in the SIARD file but it is not recommended.</td>
+		<td>The file name of the SIARD file representati ons/\[Representati onName\]/data/\[da tabaseName\].siard <b>MAY</b> be the short database identifier of the database as specified in the \&lt;dbname\&gt; element of the metadata.xml file in the SIARD file but it is not recommended.</td>
 		<td>MAY </td>
 	</tr>
 </tbody>
@@ -485,13 +485,13 @@ Usage</th>
 	<tr>
 		<td>SIARD_20 </td>
 		<td> </td>
-		<td>If the value in met s/\@csip:OTHERCONT ENTINFORMATIONTYPE is &quot;Database_dump&quot; then there **MUST** exist a proprietary database dump in represe ntations/\[Represe ntationName\]/data</td>
+		<td>If the value in met s/\@csip:OTHERCONT ENTINFORMATIONTYPE is &quot;Database_dump&quot; then there <b>MUST</b> exist a proprietary database dump in represe ntations/\[Represe ntationName\]/data</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_21 </td>
 		<td> </td>
-		<td>There **SHOULD** be preservation metadata describing the proprietary database dump</td>
+		<td>There <b>SHOULD</b> be preservation metadata describing the proprietary database dump</td>
 		<td>1..n SHOULD </td>
 	</tr>
 </tbody>
@@ -522,13 +522,13 @@ Usage</th>
 	<tr>
 		<td>SIARD_22 </td>
 		<td> </td>
-		<td>If a database has LOBs outside the .siard-file then these **SHOULD** be stored in the same representation as the .siard-file</td>
+		<td>If a database has LOBs outside the .siard-file then these <b>SHOULD</b> be stored in the same representation as the .siard-file</td>
 		<td>SHOULD </td>
 	</tr>
 	<tr>
 		<td>SIARD_23 </td>
 		<td> </td>
-		<td>LOBs **MAY** be stored in its own representation, and the value in met s/\@csip:OTHERCONT ENTINFORMATIONTYPE is &quot;SIARD_lobs&quot;. For storage and preservation actions the OAIS can decide to handle LOBs in its own representation. This way there can be different representations of .siard-files that link to the same l ob-representation. The complexity rises by choosing this solution and the CSIP states: &quot;Representation level METS files should not reference files outside of their representation&quot;. It therefore has to be a deliberate choice to allow this way of handling LOBs</td>
+		<td>LOBs <b>MAY</b> be stored in its own representation, and the value in met s/\@csip:OTHERCONT ENTINFORMATIONTYPE is &quot;SIARD_lobs&quot;. For storage and preservation actions the OAIS can decide to handle LOBs in its own representation. This way there can be different representations of .siard-files that link to the same l ob-representation. The complexity rises by choosing this solution and the CSIP states: &quot;Representation level METS files should not reference files outside of their representation&quot;. It therefore has to be a deliberate choice to allow this way of handling LOBs</td>
 		<td>MAY </td>
 	</tr>
 </tbody>
@@ -558,37 +558,37 @@ Usage</th>
 	<tr>
 		<td>SIARD_23 </td>
 		<td> </td>
-		<td>There **SHOULD** be a submission agreement in the SIP representation that has been tailored to handle preservation of relational databases</td>
+		<td>There <b>SHOULD</b> be a submission agreement in the SIP representation that has been tailored to handle preservation of relational databases</td>
 		<td>1..1 SHOULD </td>
 	</tr>
 	<tr>
 		<td>SIARD_24 </td>
 		<td> </td>
-		<td>The submission agreement **SHOULD** describe how many representations of the database that the Producer has to submit.</td>
+		<td>The submission agreement <b>SHOULD</b> describe how many representations of the database that the Producer has to submit.</td>
 		<td>0..1 SHOULD </td>
 	</tr>
 	<tr>
 		<td>SIARD_25 </td>
 		<td> </td>
-		<td>The submission agreement **SHOULD** describe whether the submitted representations of a database is 1:1 with the running database (Full SIARD export) or if any alterations have been made (only a subset of tables)</td>
+		<td>The submission agreement <b>SHOULD</b> describe whether the submitted representations of a database is 1:1 with the running database (Full SIARD export) or if any alterations have been made (only a subset of tables)</td>
 		<td>0..1 SHOULD </td>
 	</tr>
 	<tr>
 		<td>SIARD_26 </td>
 		<td> </td>
-		<td>The submission agreement **SHOULD** list the tables that are required to be submitted to the archive and to be preserved.</td>
+		<td>The submission agreement <b>SHOULD</b> list the tables that are required to be submitted to the archive and to be preserved.</td>
 		<td>0..1 </td>
 	</tr>
 	<tr>
 		<td>SIARD_27 </td>
 		<td> </td>
-		<td>The submission agreement **SHOULD** list a set of SQL queries that are decided to be submitted to the archive and are to be preserved under the \&lt;views\&gt;-element in metadata.xml. The SQL queries **SHOULD** provide the most useful queries in the database for designated communities.</td>
+		<td>The submission agreement <b>SHOULD</b> list a set of SQL queries that are decided to be submitted to the archive and are to be preserved under the \&lt;views\&gt;-element in metadata.xml. The SQL queries <b>SHOULD</b> provide the most useful queries in the database for designated communities.</td>
 		<td>0..1 SHOULD </td>
 	</tr>
 	<tr>
 		<td>SIARD_28 </td>
 		<td> </td>
-		<td>The submission agreement **SHOULD** list the documentation that is decided to be submitted to the archive. See [[7 Documentation requirements ]{.ul}](#documenta tion-requirements)</td>
+		<td>The submission agreement <b>SHOULD</b> list the documentation that is decided to be submitted to the archive. See [[7 Documentation requirements ]{.ul}](#documenta tion-requirements)</td>
 		<td>0..1 SHOULD </td>
 	</tr>
 </tbody>
@@ -633,25 +633,25 @@ Usage</th>
 	<tr>
 		<td>SIARD_30 </td>
 		<td> </td>
-		<td>There **SHOULD** be a system diagram in the Documentation folder. Preferably an E ntity/Relationship Diagramme</td>
+		<td>There <b>SHOULD</b> be a system diagram in the Documentation folder. Preferably an E ntity/Relationship Diagramme</td>
 		<td>1..n SHOULD </td>
 	</tr>
 	<tr>
 		<td>SIARD_31 </td>
 		<td> </td>
-		<td>The (main) system-user dialogues **SHOULD** be documented, down to the identification of the database coulumns/fields involved in the dialogues, documented as a combination of: &#183; Screenshots, annotated with coulumn/field descriptions, stored in the Documentation folder. &#183; User documentation describing the system-user dialogue, stored in the Documentation folder. &#183; Views, if available, as part of the SIARD file. &#183; If views are not present, additional descriptions of the system (application) logic, stored in the Documentation folder.</td>
+		<td>The (main) system-user dialogues <b>SHOULD</b> be documented, down to the identification of the database coulumns/fields involved in the dialogues, documented as a combination of: &#183; Screenshots, annotated with coulumn/field descriptions, stored in the Documentation folder. &#183; User documentation describing the system-user dialogue, stored in the Documentation folder. &#183; Views, if available, as part of the SIARD file. &#183; If views are not present, additional descriptions of the system (application) logic, stored in the Documentation folder.</td>
 		<td>1..n SHOULD </td>
 	</tr>
 	<tr>
 		<td>SIARD_32 </td>
 		<td> </td>
-		<td>Documentation of the legal context of the database and associated system **SHOULD** be provided in the Documentation folder.</td>
+		<td>Documentation of the legal context of the database and associated system <b>SHOULD</b> be provided in the Documentation folder.</td>
 		<td>1..n SHOULD </td>
 	</tr>
 	<tr>
 		<td>SIARD_33 </td>
 		<td> </td>
-		<td>There **MAY** be videos or screen dumps from the system as seen from the user&#39;s point of view in the Documentation folder.</td>
+		<td>There <b>MAY</b> be videos or screen dumps from the system as seen from the user&#39;s point of view in the Documentation folder.</td>
 		<td>1..n SHOULD </td>
 	</tr>
 </tbody>
