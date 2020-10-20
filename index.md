@@ -223,28 +223,23 @@ As for this specification there always needs to be a minimum of one representati
 
 
 <table>
-  <tr>
-   <td>ID
-   </td>
-   <td>Name and Location 
-   </td>
-   <td colspan="2" >Description and Usage
-   </td>
-   <td>Card & Level
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_1
-   </td>
-   <td colspan="2" >
-   </td>
-   <td>There <strong>MUST </strong>be minimum one representation and therefore minimum one Package METS.xml and minimum one Representation METS.xml in a CITS SIARD package.
-   </td>
-   <td>1..1
-<p>
-      MUST
-   </td>
-  </tr>
+<thead>
+	<tr>
+		<th>ID</th>
+		<th>Name and Location</th>
+		<th>Description and
+Usage</th>
+		<th>Card &amp; Level</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>SIARD_1</td>
+		<td></td>
+		<td>There **MUST** be minimum one representation and therefore minimum one Package METS.xml and minimum one Representation METS.xml in a CITS SIARD package.</td>
+		<td>1..1 MUST </td>
+	</tr>
+</tbody>
 </table>
 
 
