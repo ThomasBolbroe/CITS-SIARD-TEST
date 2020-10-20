@@ -268,7 +268,7 @@ and Usage</th>
 	<tr>
 		<td>SIARD_3 Ref CSIP4 </td>
 		<td>Content Information Type Specification mets/\ @csip:CONTENTI NFORMATIONTYPE </td>
-		<td>For information packages that primarily contain relational databases the value in Package mets/\ @csip:CONTENTI NFORMATIONTYPE <b>must</b> be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] (about:blank).</td>
+		<td>For information packages that primarily contain relational databases the value in Package mets/\ @csip:CONTENTI NFORMATIONTYPE <b>MUST</b> be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] (about:blank).</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
@@ -280,7 +280,7 @@ and Usage</th>
 	<tr>
 		<td>SIARD_5 Ref CSIP6 </td>
 		<td>METS Profile mets/\@PROFILE </td>
-		<td>For information packages that primarily contain relational databases the value in the \@PROFILE <b>must</b> be \&quot;https: //SIARD.dilcis .eu/profile/CI TS_SIARD.xml\&quot;</td>
+		<td>For information packages that primarily contain relational databases the value in the \@PROFILE <b>MUST</b> be \&quot;https: //SIARD.dilcis .eu/profile/CI TS_SIARD.xml\&quot;</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
