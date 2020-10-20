@@ -472,40 +472,29 @@ Usage</th>
 
 
 <table>
-  <tr>
-   <td>ID
-   </td>
-   <td>Name and Location 
-   </td>
-   <td colspan="2" >Description and Usage
-   </td>
-   <td colspan="2" >Card & Level
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_20
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >If the value in mets/@csip:OTHERCONTENTINFORMATIONTYPE is “Database_dump”  then there <strong>MUST</strong> exist a proprietary database dump in representations/[RepresentationName]/data
-   </td>
-   <td>1..1
-<p>
-      MUST
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_21
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >There <strong>SHOULD</strong> be preservation metadata describing the proprietary database dump
-   </td>
-   <td>1..n
-<p>
-SHOULD
-   </td>
-  </tr>
+<thead>
+	<tr>
+		<th>ID</th>
+		<th>Name and Location</th>
+		<th>Description and
+Usage</th>
+		<th>Card &amp; Level</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>SIARD_20 </td>
+		<td> </td>
+		<td>If the value in met s/\@csip:OTHERCONT ENTINFORMATIONTYPE is &quot;Database_dump&quot; then there **MUST** exist a proprietary database dump in represe ntations/\[Represe ntationName\]/data</td>
+		<td>1..1 MUST </td>
+	</tr>
+	<tr>
+		<td>SIARD_21 </td>
+		<td> </td>
+		<td>There **SHOULD** be preservation metadata describing the proprietary database dump</td>
+		<td>1..n SHOULD </td>
+	</tr>
+</tbody>
 </table>
 
 
