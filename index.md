@@ -614,84 +614,47 @@ There should be documentation in the representations and/or in the information p
 
 
 <table>
-  <tr>
-   <td>ID
-   </td>
-   <td>Name and Location 
-   </td>
-   <td colspan="2" >Description and Usage
-   </td>
-   <td colspan="2" >Card & Level
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_29
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >Tables, coulumns/fields, keys, coded values  SHOULD be explained, preferably in the metadata.xml and via code tables or the SIARD file or alternatively in the Documentation folder.
-   </td>
-   <td>1..n
-<p>
-      SHOULD
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_30
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >There <strong>SHOULD </strong>be a system diagram in the Documentation folder. Preferably an Entity/Relationship Diagramme
-   </td>
-   <td>1..n
-<p>
-SHOULD
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_31
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >The (main) system-user dialogues <strong>SHOULD </strong>be documented, down to the identification of the database coulumns/fields involved in the dialogues, documented as a combination of:
-<p>
-·        Screenshots, annotated with coulumn/field descriptions, stored in the Documentation folder.
-<p>
-·        User documentation describing the system-user dialogue, stored in the Documentation folder.
-<p>
-·        Views, if available, as part of the SIARD file.
-<p>
-·        If views are not present, additional descriptions of the system (application) logic, stored in the Documentation folder. 
-   </td>
-   <td>1..n
-<p>
-SHOULD
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_32
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >Documentation of the legal context of the database and associated system <strong>SHOULD </strong>be provided in the Documentation folder.
-   </td>
-   <td>1..n
-<p>
-SHOULD
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_33
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >There <strong>MAY </strong>be videos or screen dumps from the system as seen from the user’s point of view in the Documentation folder.
-   </td>
-   <td>1..n
-<p>
-SHOULD
-   </td>
-  </tr>
+<thead>
+	<tr>
+		<th>ID</th>
+		<th>Name and Location</th>
+		<th>Description and
+Usage</th>
+		<th>Card &amp; Level</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>SIARD_29 </td>
+		<td> </td>
+		<td>Tables, coulumns/fields, keys, coded values SHOULD be explained, preferably in the metadata.xml and via code tables or the SIARD file or alternatively in the Documentation folder.</td>
+		<td>1..n SHOULD </td>
+	</tr>
+	<tr>
+		<td>SIARD_30 </td>
+		<td> </td>
+		<td>There **SHOULD** be a system diagram in the Documentation folder. Preferably an E ntity/Relationship Diagramme</td>
+		<td>1..n SHOULD </td>
+	</tr>
+	<tr>
+		<td>SIARD_31 </td>
+		<td> </td>
+		<td>The (main) system-user dialogues **SHOULD** be documented, down to the identification of the database coulumns/fields involved in the dialogues, documented as a combination of: &#183; Screenshots, annotated with coulumn/field descriptions, stored in the Documentation folder. &#183; User documentation describing the system-user dialogue, stored in the Documentation folder. &#183; Views, if available, as part of the SIARD file. &#183; If views are not present, additional descriptions of the system (application) logic, stored in the Documentation folder.</td>
+		<td>1..n SHOULD </td>
+	</tr>
+	<tr>
+		<td>SIARD_32 </td>
+		<td> </td>
+		<td>Documentation of the legal context of the database and associated system **SHOULD** be provided in the Documentation folder.</td>
+		<td>1..n SHOULD </td>
+	</tr>
+	<tr>
+		<td>SIARD_33 </td>
+		<td> </td>
+		<td>There **MAY** be videos or screen dumps from the system as seen from the user&#39;s point of view in the Documentation folder.</td>
+		<td>1..n SHOULD </td>
+	</tr>
+</tbody>
 </table>
 
 
