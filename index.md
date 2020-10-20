@@ -236,7 +236,7 @@ Usage</th>
 	<tr>
 		<td>SIARD_1</td>
 		<td></td>
-		<td>There **MUST** be minimum one representation and therefore minimum one Package METS.xml and minimum one Representation METS.xml in a CITS SIARD package.</td>
+		<td>There <b>MUST</b> be minimum one representation and therefore minimum one Package METS.xml and minimum one Representation METS.xml in a CITS SIARD package.</td>
 		<td>1..1 MUST </td>
 	</tr>
 </tbody>
