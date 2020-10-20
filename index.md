@@ -468,7 +468,7 @@ Usage</th>
 ### 3.7 {Database_dump} – requirements
 
 
-    For authenticity and possible dissemination purposes, the OAIS might want to have a representation with a proprietary database dump from the original database management system.
+For authenticity and possible dissemination purposes, the OAIS might want to have a representation with a proprietary database dump from the original database management system.
 
 
 <table>
