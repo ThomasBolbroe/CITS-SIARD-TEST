@@ -418,30 +418,48 @@ fileSec/fileGrp/file@csip:OTHERCONTENTINFORMATIONTYPE
 
 
 <table>
-  <tr>
-   <td>ID
-   </td>
-   <td>Name and Location 
-   </td>
-   <td colspan="2" >Description and Usage
-   </td>
-   <td colspan="2" >Card & Level
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_14
-   </td>
-   <td colspan="2" >Type 
-<p>
-mets/@TYPE
-   </td>
-   <td colspan="2" >If the value in representation  mets/@csip:OTHERCONTENTINFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1, Database_dump}  then the Package METS.xml fileGrp who refers to the Package METS.xml <strong>MUST</strong> have the same value.
-   </td>
-   <td>1..1
-<p>
-      MUST
-   </td>
-  </tr>
+<thead>
+	<tr>
+		<th>ID</th>
+		<th>Name and
+Location</th>
+		<th>Description
+and Usage</th>
+		<th>Card &amp; Level</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>SIARD_9 Ref CSIP2 </td>
+		<td>Type mets/\@TYPE </td>
+		<td>For r epresentations that primarily contain relational databases the value in Package mets/\@TYPE **MUST** be &quot;Databases&quot; as taken from the CSIP Vocabulary for [Content Category] (about:blank).</td>
+		<td>1..1 MUST </td>
+	</tr>
+	<tr>
+		<td>SIARD_10 Ref CSIP4 </td>
+		<td>Content Information Type Specification mets/\ @csip:CONTENTI NFORMATIONTYPE </td>
+		<td>For r epresentations that primarily contain relational databases and that conforms to CITS SIARD the value in Package mets/\ @csip:CONTENTI NFORMATIONTYPE **MUST** be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] (about:blank).</td>
+		<td>1..1 MUST </td>
+	</tr>
+	<tr>
+		<td>SIARD_11 Ref CSIP5 </td>
+		<td>Other Content Information Type Specification mets/\@csip :OTHERCONTENTI NFORMATIONTYPE </td>
+		<td>For r epresentations where mets/\ @csip:CONTENTI NFORMATIONTYPE has the value &quot;CITS_SIARD&quot; then mets/\@csip :OTHERCONTENTI NFORMATIONTYPE **MUST** have a value taken from the vocabulary {SIARD_1.0; SIARD_2.0, SIARD_2.1, Database_dump}</td>
+		<td>0..0 NOT </td>
+	</tr>
+	<tr>
+		<td>SIARD_12 Ref CSIP6 </td>
+		<td>METS Profile mets/\@PROFILE </td>
+		<td>For information packages that primarily contain relational databases the value in the \@PROFILE **MUST** be \&quot;https:/ /SIARD.dilcis. eu/profile/CIT S_SIARD_repres entation.xml\&quot;</td>
+		<td>1..1 MUST </td>
+	</tr>
+	<tr>
+		<td>SIARD_13 Ref CSIP64-CSIP79 </td>
+		<td>File Pointer fileSec/file Grp/file\@csip :OTHERCONTENTI NFORMATIONTYPE </td>
+		<td>If the value in mets/\@csip :OTHERCONTENTI NFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1, Database_dump} then there **MUST** exist one and only one file in the fileGrp with \@USE = &quot;data&quot; with an identical value in fileSec/file Grp/file\@csip :OTHERCONTENTI NFORMATIONTYPE that is used to locate the relevant database file.</td>
+		<td>1..1 MUST </td>
+	</tr>
+</tbody>
 </table>
 
 
