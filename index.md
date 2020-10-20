@@ -420,70 +420,47 @@ and Usage</th>
 
 
 <table>
-  <tr>
-   <td>ID
-   </td>
-   <td>Name and Location 
-   </td>
-   <td colspan="2" >Description and Usage
-   </td>
-   <td colspan="2" >Card & Level
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_15
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >If the value in mets/@csip:OTHERCONTENTINFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1}  then there <strong>MUST</strong> exist a file named [databaseName].siard in representations/[RepresentationName]/data
-   </td>
-   <td>1..1
-<p>
-      MUST
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_16
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >The SIARD version of the SIARD-file <strong>MUST</strong> be the same as the version provided in mets/@csip:OTHERCONTENTINFORMATIONTYPE and fileSec/fileGrp/file@csip:OTHERCONTENTINFORMATIONTYPE
-   </td>
-   <td>MUST
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_17
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >The representations/[RepresentationName]/data/[databaseName].siard <strong>SHOULD</strong> be a valid SIARD file
-   </td>
-   <td>SHOULD
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_18
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >There <strong>SHOULD</strong> be minimum one  validation report in the documentation folder for the validation of the SIARD-file
-   </td>
-   <td>1..n
-<p>
-SHOULD
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_19
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >The file name of the SIARD file representations/[RepresentationName]/data/[databaseName].siard <strong>MAY</strong> be the short database identifier of the database as specified in the &lt;dbname> element of the metadata.xml file in the SIARD file but it is not recommended.
-   </td>
-   <td>MAY
-   </td>
-  </tr>
+<thead>
+	<tr>
+		<th>ID</th>
+		<th>Name and Location</th>
+		<th>Description and
+Usage</th>
+		<th>Card &amp; Level</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>SIARD_15 </td>
+		<td> </td>
+		<td>If the value in met s/\@csip:OTHERCONT ENTINFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1} then there **MUST** exist a file named \[da tabaseName\].siard in represe ntations/\[Represe ntationName\]/data</td>
+		<td>1..1 MUST </td>
+	</tr>
+	<tr>
+		<td>SIARD_16 </td>
+		<td> </td>
+		<td>The SIARD version of the SIARD-file **MUST** be the same as the version provided in met s/\@csip:OTHERCONT ENTINFORMATIONTYPE and fileSec/fileGrp/fi le\@csip:OTHERCONT ENTINFORMATIONTYPE</td>
+		<td>MUST </td>
+	</tr>
+	<tr>
+		<td>SIARD_17 </td>
+		<td> </td>
+		<td>The representati ons/\[Representati onName\]/data/\[da tabaseName\].siard **SHOULD** be a valid SIARD file</td>
+		<td>SHOULD </td>
+	</tr>
+	<tr>
+		<td>SIARD_18 </td>
+		<td> </td>
+		<td>There **SHOULD** be minimum one validation report in the documentation folder for the validation of the SIARD-file</td>
+		<td>1..n SHOULD </td>
+	</tr>
+	<tr>
+		<td>SIARD_19 </td>
+		<td> </td>
+		<td>The file name of the SIARD file representati ons/\[Representati onName\]/data/\[da tabaseName\].siard **MAY** be the short database identifier of the database as specified in the \&lt;dbname\&gt; element of the metadata.xml file in the SIARD file but it is not recommended.</td>
+		<td>MAY </td>
+	</tr>
+</tbody>
 </table>
 
 
