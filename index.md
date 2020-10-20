@@ -509,38 +509,29 @@ In the SIARD specification from SIARD2.0 and onwards the external LOBs can be pl
 
 
 <table>
-  <tr>
-   <td>ID
-   </td>
-   <td>Name and Location 
-   </td>
-   <td colspan="2" >Description and Usage
-   </td>
-   <td colspan="2" >Card & Level
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_22
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >If a database has LOBs outside the .siard-file then these <strong>SHOULD</strong> be stored in the same representation as the .siard-file
-   </td>
-   <td>      SHOULD
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_23
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >LOBs <strong>MAY </strong>be stored in its own representation, and the value in mets/@csip:OTHERCONTENTINFORMATIONTYPE is “SIARD_lobs”.
-<p>
-For storage and preservation actions the OAIS can decide to handle LOBs in its own representation. This way there can be different representations of .siard-files that link to the same lob-representation. The complexity rises by choosing this solution and the CSIP states: “Representation level METS files should not reference files outside of their representation”. It therefore has to be a deliberate choice to allow this way of handling LOBs
-   </td>
-   <td>MAY
-   </td>
-  </tr>
+<thead>
+	<tr>
+		<th>ID</th>
+		<th>Name and Location</th>
+		<th>Description and
+Usage</th>
+		<th>Card &amp; Level</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>SIARD_22 </td>
+		<td> </td>
+		<td>If a database has LOBs outside the .siard-file then these **SHOULD** be stored in the same representation as the .siard-file</td>
+		<td>SHOULD </td>
+	</tr>
+	<tr>
+		<td>SIARD_23 </td>
+		<td> </td>
+		<td>LOBs **MAY** be stored in its own representation, and the value in met s/\@csip:OTHERCONT ENTINFORMATIONTYPE is &quot;SIARD_lobs&quot;. For storage and preservation actions the OAIS can decide to handle LOBs in its own representation. This way there can be different representations of .siard-files that link to the same l ob-representation. The complexity rises by choosing this solution and the CSIP states: &quot;Representation level METS files should not reference files outside of their representation&quot;. It therefore has to be a deliberate choice to allow this way of handling LOBs</td>
+		<td>MAY </td>
+	</tr>
+</tbody>
 </table>
 
 
