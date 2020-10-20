@@ -545,90 +545,53 @@ There should be a submission agreement in the SIP representation that has been t
 
 
 <table>
-  <tr>
-   <td>ID
-   </td>
-   <td>Name and Location 
-   </td>
-   <td colspan="2" >Description and Usage
-   </td>
-   <td colspan="2" >Card & Level
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_23
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >There <strong>SHOULD </strong>be a submission agreement in the SIP representation that has been tailored to handle preservation of relational databases
-   </td>
-   <td>1..1
-<p>
-      SHOULD
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_24
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >The submission agreement <strong>SHOULD </strong>describe how many representations of the database that the Producer has to submit.
-   </td>
-   <td>0..1
-<p>
-      SHOULD
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_25
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >The submission agreement <strong>SHOULD </strong>describe whether the submitted representations of a database is 1:1 with the running database (Full SIARD export) or if any alterations have been made (only a subset of tables)
-   </td>
-   <td>0..1
-<p>
-      SHOULD
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_26
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >The submission agreement <strong>SHOULD </strong>list the tables that are required to be submitted to the archive and to be preserved.
-   </td>
-   <td>0..1
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_27
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >The submission agreement <strong>SHOULD </strong>list a set of SQL queries that are decided to be submitted to the archive and are to be preserved under the &lt;views>-element in metadata.xml. The SQL queries <strong>SHOULD </strong>provide the most useful queries in the database for designated communities.
-   </td>
-   <td>0..1
-<p>
-SHOULD
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_28
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >The submission agreement <strong>SHOULD </strong>list the documentation that is decided to be submitted to the archive. See 
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "7 Documentation requirements"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-<a href="#heading=h.gymrmfwdq7te">7 Documentation requirements</a> 
-   </td>
-   <td>0..1
-<p>
-SHOULD
-   </td>
-  </tr>
+<thead>
+	<tr>
+		<th>ID</th>
+		<th>Name and Location</th>
+		<th>Description and
+Usage</th>
+		<th>Card &amp; Level</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>SIARD_23 </td>
+		<td> </td>
+		<td>There **SHOULD** be a submission agreement in the SIP representation that has been tailored to handle preservation of relational databases</td>
+		<td>1..1 SHOULD </td>
+	</tr>
+	<tr>
+		<td>SIARD_24 </td>
+		<td> </td>
+		<td>The submission agreement **SHOULD** describe how many representations of the database that the Producer has to submit.</td>
+		<td>0..1 SHOULD </td>
+	</tr>
+	<tr>
+		<td>SIARD_25 </td>
+		<td> </td>
+		<td>The submission agreement **SHOULD** describe whether the submitted representations of a database is 1:1 with the running database (Full SIARD export) or if any alterations have been made (only a subset of tables)</td>
+		<td>0..1 SHOULD </td>
+	</tr>
+	<tr>
+		<td>SIARD_26 </td>
+		<td> </td>
+		<td>The submission agreement **SHOULD** list the tables that are required to be submitted to the archive and to be preserved.</td>
+		<td>0..1 </td>
+	</tr>
+	<tr>
+		<td>SIARD_27 </td>
+		<td> </td>
+		<td>The submission agreement **SHOULD** list a set of SQL queries that are decided to be submitted to the archive and are to be preserved under the \&lt;views\&gt;-element in metadata.xml. The SQL queries **SHOULD** provide the most useful queries in the database for designated communities.</td>
+		<td>0..1 SHOULD </td>
+	</tr>
+	<tr>
+		<td>SIARD_28 </td>
+		<td> </td>
+		<td>The submission agreement **SHOULD** list the documentation that is decided to be submitted to the archive. See [[7 Documentation requirements ]{.ul}](#documenta tion-requirements)</td>
+		<td>0..1 SHOULD </td>
+	</tr>
+</tbody>
 </table>
 
 
