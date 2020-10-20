@@ -248,126 +248,60 @@ Usage</th>
 
 
 <table>
-  <tr>
-   <td>ID
-   </td>
-   <td>Name and Location 
-   </td>
-   <td colspan="2" >Description and Usage
-   </td>
-   <td colspan="2" >Card & Level
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_2
-<p>
-Ref CSIP2
-   </td>
-   <td colspan="2" >Type 
-<p>
-mets/@TYPE
-   </td>
-   <td colspan="2" >For information packages that primarily contain relational databases the value in Package mets/@TYPE <strong>MUST</strong> be “Databases” as taken from the CSIP Vocabulary for <a href="https://earkcsip.dilcis.eu/schema/CSIPVocabularyContentCategory.xml">Content Category</a>. 
-   </td>
-   <td>1..1
-<p>
-      MUST
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_3
-<p>
-Ref CSIP4
-   </td>
-   <td colspan="2" >Content Information Type Specification
-<p>
-mets/@csip:CONTENTINFORMATIONTYPE
-   </td>
-   <td>For information packages that primarily contain relational databases the value in Package mets/@csip:CONTENTINFORMATIONTYPE <strong>MUST</strong> be “CITS_SIARD” as taken from the CSIP Vocabulary for <a href="https://earkcsip.dilcis.eu/schema/CSIPVocabularyContentInformationType.xml">Content Information Type</a>.  
-   </td>
-   <td colspan="2" >1..1
-<p>
-      MUST
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_4
-<p>
-Ref CSIP5
-   </td>
-   <td colspan="2" >Other Content Information Type Specification
-<p>
-mets/@csip:OTHERCONTENTINFORMATIONTYPE 
-   </td>
-   <td>For information packages that primarily contain relational databases the Package METS must<strong> NOT</strong> have a mets/@csip:OTHERCONTENTINFORMATIONTYPE 
-   </td>
-   <td colspan="2" >0..0
-<p>
-      NOT
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_5
-<p>
-Ref CSIP6
-   </td>
-   <td colspan="2" >METS Profile
-<p>
-mets/@PROFILE 
-   </td>
-   <td>For information packages that primarily contain relational databases the value in the @PROFILE <strong>MUST</strong> be "https://SIARD.dilcis.eu/profile/CITS_SIARD.xml"
-   </td>
-   <td colspan="2" >1..1
-<p>
-      MUST
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_6
-<p>
-Ref CSIP62
-   </td>
-   <td colspan="2" >fileSec Representation Content Information Type Specification
-<p>
-mets/fileSec/fileGrp[@USE='Representations']/@csip:CONTENTINFORMATIONTYPE
-   </td>
-   <td>There <strong>MUST</strong> be a minimum of one mets/fileSec/fileGrp[@USE='Representations']/@csip:CONTENTINFORMATIONTYPE with the value “CITS_SIARD” as taken from the CSIP Vocabulary for <a href="https://earkcsip.dilcis.eu/schema/CSIPVocabularyContentInformationType.xml">Content Information Type</a> that direct to the representation METS.xml in the representation containing a relational database.
-   </td>
-   <td colspan="2" >1..n
-<p>
-      MUST
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_7
-<p>
-Ref CSIP63
-   </td>
-   <td colspan="2" >fileSec Other Content Information Type Specification
-<p>
-mets/fileSec/fileGrp[@csip:CONTENTINFORMATIONTYPE=' CITS_SIARD ']/@csip:OTHERCONTENTINFORMATIONTYPE
-   </td>
-   <td>For any mets/fileSec/fileGrp[@csip:CONTENTINFORMATIONTYPE  with the value “CITS_SIARD” there <strong>MUST</strong> be a @csip:OTHERCONTENTINFORMATIONTYPE attribute with a value taken from the vocabulary {SIARD_1.0; SIARD_2.0, SIARD_2.1, Database_dump}. 
-   </td>
-   <td colspan="2" >1..1
-<p>
-      MUST
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_8
-<p>
-Ref CSIP105-CSIP112
-   </td>
-   <td colspan="2" >StructMap METS pointer
-   </td>
-   <td>For any fileGrp/@csip:CONTENTINFORMATIONTYPE with the value “CITS_SIARD” there <strong>MUST</strong> be a corresponding @div-representation in the StructMap-element 
-   </td>
-   <td colspan="2" >1..1
-<p>
-      MUST
-   </td>
-  </tr>
+<thead>
+	<tr>
+		<th>ID</th>
+		<th>Name and
+Location</th>
+		<th>Description
+and Usage</th>
+		<th>Card &amp; Level</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>SIARD_2 Ref CSIP2 </td>
+		<td>Type mets/\@TYPE </td>
+		<td>For information packages that primarily contain relational databases the value in Package mets/\@TYPE **MUST** be &quot;Databases&quot; as taken from the CSIP Vocabulary for [Content Category] (about:blank).</td>
+		<td>1..1 MUST </td>
+	</tr>
+	<tr>
+		<td>SIARD_3 Ref CSIP4 </td>
+		<td>Content Information Type Specification mets/\ @csip:CONTENTI NFORMATIONTYPE </td>
+		<td>For information packages that primarily contain relational databases the value in Package mets/\ @csip:CONTENTI NFORMATIONTYPE **MUST** be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] (about:blank).</td>
+		<td>1..1 MUST </td>
+	</tr>
+	<tr>
+		<td>SIARD_4 Ref CSIP5 </td>
+		<td>Other Content Information Type Specification mets/\@csip :OTHERCONTENTI NFORMATIONTYPE </td>
+		<td>For information packages that primarily contain relational databases the Package METS must **NOT** have a mets/\@csip :OTHERCONTENTI NFORMATIONTYPE</td>
+		<td>0..0 NOT </td>
+	</tr>
+	<tr>
+		<td>SIARD_5 Ref CSIP6 </td>
+		<td>METS Profile mets/\@PROFILE </td>
+		<td>For information packages that primarily contain relational databases the value in the \@PROFILE **MUST** be \&quot;https: //SIARD.dilcis .eu/profile/CI TS_SIARD.xml\&quot;</td>
+		<td>1..1 MUST </td>
+	</tr>
+	<tr>
+		<td>SIARD_6 Ref CSIP62 </td>
+		<td>fileSec Representation Content Information Type Specification mets/file Sec/fileGrp\[\ @USE=\&#39;Represe ntations\&#39;\]/\ @csip:CONTENTI NFORMATIONTYPE </td>
+		<td>There **MUST** be a minimum of one mets/file Sec/fileGrp\[\ @USE=\&#39;Represe ntations\&#39;\]/\ @csip:CONTENTI NFORMATIONTYPE with the value &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type ](about:blank) that direct to the representation METS.xml in the representation containing a relational database.</td>
+		<td>1..n MUST </td>
+	</tr>
+	<tr>
+		<td>SIARD_7 Ref CSIP63 </td>
+		<td>fileSec Other Content Information Type Specification mets/fileSec /fileGrp\[\@cs ip:CONTENTINFO RMATIONTYPE=\&#39; CITS_SIARD \&#39;\]/\@csip :OTHERCONTENTI NFORMATIONTYPE </td>
+		<td>For any mets/file Sec/fileGrp\[\ @csip:CONTENTI NFORMATIONTYPE with the value &quot;CITS_SIARD&quot; there **MUST** be a \@csip :OTHERCONTENTI NFORMATIONTYPE attribute with a value taken from the vocabulary {SIARD_1.0; SIARD_2.0, SIARD_2.1, D atabase_dump}.</td>
+		<td>1..1 MUST </td>
+	</tr>
+	<tr>
+		<td>SIARD_8 Ref C SIP105-CSIP112 </td>
+		<td>StructMap METS pointer </td>
+		<td>For any fileGrp/\ @csip:CONTENTI NFORMATIONTYPE with the value &quot;CITS_SIARD&quot; there **MUST** be a corresponding \@div- representation in the Str uctMap-element</td>
+		<td>1..1 MUST </td>
+	</tr>
+</tbody>
 </table>
 
 
