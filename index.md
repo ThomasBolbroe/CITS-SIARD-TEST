@@ -99,7 +99,7 @@ A full list of contributors to this specification, as well as the revision histo
 > [3.2 Package and Representation
 > METS](#package-and-representation-mets) 
 >
-> [2.3 Package METS requirements](#package-mets-requirements) 
+> [3.2 Package METS requirements](#package-mets-requirements) 
 >
 > [3.4 Representation METS
 > requirements](#representation-mets-requirements) 
