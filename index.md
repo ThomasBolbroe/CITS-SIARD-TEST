@@ -85,9 +85,9 @@ A full list of contributors to this specification, as well as the revision histo
 
 **[2 Context](#2-context)** 
 
-> [2.1 Purpose](#purpose) 
+> [2.1 Purpose](#21-purpose) 
 >
-> [2.2 Layered data model](#layered-data-model) 
+> [2.2 Layered data model](#22-layered-data-model) 
 >
 > [2.3 The boundaries of this specification and the
 > SIARD-specification](#_awb2q9n7ozcq) 
