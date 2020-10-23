@@ -786,7 +786,6 @@ Usage</th>
    <td>National Archives of Estonia
    </td>
   </tr>
-  <tr>
    <td>
    </td>
   <tr>
@@ -801,7 +800,6 @@ Usage</th>
    <td>The Danish National Archives
    </td>
   </tr>
-   <td>
    </td>
   </tr>
 </table>
