@@ -99,7 +99,7 @@ A full list of contributors to this specification, as well as the revision histo
 > [3.2 Package and Representation
 > METS](#package-and-representation-mets) 
 >
-> [2.3 Package METS requirements](#package-mets-requirements) 
+> [3.2 Package METS requirements](#package-mets-requirements) 
 >
 > [3.4 Representation METS
 > requirements](#representation-mets-requirements) 
@@ -468,7 +468,7 @@ Usage</th>
 ### 3.7 {Database_dump} – requirements
 
 
-    For authenticity and possible dissemination purposes, the OAIS might want to have a representation with a proprietary database dump from the original database management system.
+For authenticity and possible dissemination purposes, the OAIS might want to have a representation with a proprietary database dump from the original database management system.
 
 
 <table>
@@ -659,12 +659,11 @@ Usage</th>
 
 
 
-## 
+ 
             
 
 
-## 
-            Glossary
+## Glossary
 
 **Table 2: Glossary**
 
@@ -708,7 +707,7 @@ Usage</th>
   </tr>
 </table>
 
-
+ 
 
 ##   **Postface**
 
@@ -762,7 +761,7 @@ Usage</th>
   </tr>
 </table>
 
-
+ 
 
 <table>
   <tr>
@@ -790,12 +789,24 @@ Usage</th>
   <tr>
    <td>
    </td>
+  <tr>
+   <td>Jaime Kaminski
+   </td>
+   <td>Highbury/DNA
+   </td>
+  </tr>
+  <tr>
+   <td>Thomas Bolbroe
+   </td>
+   <td>The Danish National Archives
+   </td>
+  </tr>
    <td>
    </td>
   </tr>
 </table>
 
-
+ 
 
 <table>
   <tr>
@@ -824,7 +835,7 @@ Usage</th>
   </tr>
 </table>
 
-
+ 
 
 
 **<span style="text-decoration:underline;">REVISION HISTORY AND STATEMENT OF ORIGINALITY</span>**
