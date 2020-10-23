@@ -1,4 +1,4 @@
-  ![](pictures/Draft.png)
+  ![](pictures/draft.png)
 
 ## 1 Preface
 
