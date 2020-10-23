@@ -109,7 +109,7 @@ A full list of contributors to this specification, as well as the revision histo
 >
 >
 > [3.6 {SIARD_1.0, SIARD2.0, SIARD2.1} --
-> requirements](#36-siard_1.0-siard2.0-siard2.1-requirements) 
+> requirements](#36-siard_10-siard20-siard21--requirements) 
 >
 > [3.7 {Database_dump} -- requirements](#-37database_dump-requirements) 
 
