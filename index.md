@@ -298,7 +298,7 @@ and Usage</th>
 	<tr>
 		<td>SIARD_8 Ref C SIP105-CSIP112 </td>
 		<td>StructMap METS pointer </td>
-		<td>For any fileGrp/\ @csip:CONTENTINFORMATIONTYPE with the value &quot;CITS_SIARD&quot; there <b>MUST</b> be a corresponding \@div- representation in the Str uctMap-element</td>
+		<td>For any fileGrp/\ @csip:CONTENTINFORMATIONTYPE with the value &quot;CITS_SIARD&quot; there <b>MUST</b> be a corresponding \@div- representation in the StructMap-element</td>
 		<td>1..1 MUST </td>
 	</tr>
 </tbody>
