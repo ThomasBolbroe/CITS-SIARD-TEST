@@ -1,5 +1,6 @@
 <p align="center">
-  ![](pictures/draft.png)
+   <b>![](pictures/draft.png)
+</b>
 </p>
 
 ## 1 Preface
