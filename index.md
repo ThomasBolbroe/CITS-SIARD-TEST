@@ -795,6 +795,12 @@ Usage</th>
    <td>Highbury/DNA
    </td>
   </tr>
+  <tr>
+   <td>Thomas Bolbroe
+   </td>
+   <td>The Danish National Archives
+   </td>
+  </tr>
    <td>
    </td>
   </tr>
