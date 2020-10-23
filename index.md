@@ -789,6 +789,12 @@ Usage</th>
   <tr>
    <td>
    </td>
+  <tr>
+   <td>Jaime Kaminski
+   </td>
+   <td>Highbury/DNA
+   </td>
+  </tr>
    <td>
    </td>
   </tr>
