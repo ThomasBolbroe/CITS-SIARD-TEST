@@ -94,7 +94,7 @@ A full list of contributors to this specification, as well as the revision histo
 
 **[3 CITS SIARD Requirements](#3-cits-siard-requirements)** 
 
-> [3.1 Folder structure and example](#f31-older-structure-and-example) 
+> [3.1 Folder structure and example](#31-folder-structure-and-example) 
 >
 > [3.2 Package and Representation
 > METS](#32-package-and-representation-mets) 
