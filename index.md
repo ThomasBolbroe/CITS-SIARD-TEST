@@ -267,14 +267,14 @@ and Usage</th>
 	</tr>
 	<tr>
 		<td>SIARD_3 Ref CSIP4 </td>
-		<td>Content Information Type Specification mets/\ @csip:CONTENTINFORMATIONTYPE </td>
-		<td>For information packages that primarily contain relational databases the value in Package mets/\ @csip:CONTENTINFORMATIONTYPE <b>MUST</b> be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] (about:blank).</td>
+		<td>Content Information Type Specification mets/\ @csip:CONTENTI NFORMATIONTYPE </td>
+		<td>For information packages that primarily contain relational databases the value in Package mets/\ @csip:CONTENTI NFORMATIONTYPE <b>MUST</b> be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] (about:blank).</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_4 Ref CSIP5 </td>
-		<td>Other Content Information Type Specification mets/\@csip :OTHERCONTENTINFORMATIONTYPE </td>
-		<td>For information packages that primarily contain relational databases the Package METS must **NOT** have a mets/\@csip :OTHERCONTENTINFORMATIONTYPE</td>
+		<td>Other Content Information Type Specification mets/\@csip :OTHERCONTENTI NFORMATIONTYPE </td>
+		<td>For information packages that primarily contain relational databases the Package METS must **NOT** have a mets/\@csip :OTHERCONTENTI NFORMATIONTYPE</td>
 		<td>0..0 NOT </td>
 	</tr>
 	<tr>
@@ -285,20 +285,20 @@ and Usage</th>
 	</tr>
 	<tr>
 		<td>SIARD_6 Ref CSIP62 </td>
-		<td>fileSec Representation Content Information Type Specification mets/file Sec/fileGrp\[\ @USE=\&#39;Represe ntations\&#39;\]/\ @csip:CONTENTINFORMATIONTYPE </td>
-		<td>There <b>MUST</b> be a minimum of one mets/file Sec/fileGrp\[\ @USE=\&#39;Represe ntations\&#39;\]/\ @csip:CONTENTINFORMATIONTYPE with the value &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type ](about:blank) that direct to the representation METS.xml in the representation containing a relational database.</td>
+		<td>fileSec Representation Content Information Type Specification mets/file Sec/fileGrp\[\ @USE=\&#39;Represe ntations\&#39;\]/\ @csip:CONTENTI NFORMATIONTYPE </td>
+		<td>There <b>MUST</b> be a minimum of one mets/file Sec/fileGrp\[\ @USE=\&#39;Represe ntations\&#39;\]/\ @csip:CONTENTI NFORMATIONTYPE with the value &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type ](about:blank) that direct to the representation METS.xml in the representation containing a relational database.</td>
 		<td>1..n MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_7 Ref CSIP63 </td>
-		<td>fileSec Other Content Information Type Specification mets/fileSec /fileGrp\[\@cs ip:CONTENTINFO RMATIONTYPE=\&#39; CITS_SIARD \&#39;\]/\@csip :OTHERCONTENTINFORMATIONTYPE </td>
-		<td>For any mets/file Sec/fileGrp\[\ @csip:CONTENTINFORMATIONTYPE with the value &quot;CITS_SIARD&quot; there <b>MUST</b> be a \@csip :OTHERCONTENTINFORMATIONTYPE attribute with a value taken from the vocabulary {SIARD_1.0; SIARD_2.0, SIARD_2.1, D atabase_dump}.</td>
+		<td>fileSec Other Content Information Type Specification mets/fileSec /fileGrp\[\@cs ip:CONTENTINFO RMATIONTYPE=\&#39; CITS_SIARD \&#39;\]/\@csip :OTHERCONTENTI NFORMATIONTYPE </td>
+		<td>For any mets/file Sec/fileGrp\[\ @csip:CONTENTI NFORMATIONTYPE with the value &quot;CITS_SIARD&quot; there <b>MUST</b> be a \@csip :OTHERCONTENTI NFORMATIONTYPE attribute with a value taken from the vocabulary {SIARD_1.0; SIARD_2.0, SIARD_2.1, D atabase_dump}.</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_8 Ref C SIP105-CSIP112 </td>
 		<td>StructMap METS pointer </td>
-		<td>For any fileGrp/\ @csip:CONTENTINFORMATIONTYPE with the value &quot;CITS_SIARD&quot; there <b>MUST</b> be a corresponding \@div- representation in the Str uctMap-element</td>
+		<td>For any fileGrp/\ @csip:CONTENTI NFORMATIONTYPE with the value &quot;CITS_SIARD&quot; there <b>MUST</b> be a corresponding \@div- representation in the Str uctMap-element</td>
 		<td>1..1 MUST </td>
 	</tr>
 </tbody>
@@ -334,19 +334,19 @@ and Usage</th>
 	<tr>
 		<td>SIARD_9 Ref CSIP2 </td>
 		<td>Type mets/\@TYPE </td>
-		<td>For representations that primarily contain relational databases the value in Package mets/\@TYPE <b>MUST</b> be &quot;Databases&quot; as taken from the CSIP Vocabulary for [Content Category] (about:blank).</td>
+		<td>For r epresentations that primarily contain relational databases the value in Package mets/\@TYPE <b>MUST</b> be &quot;Databases&quot; as taken from the CSIP Vocabulary for [Content Category] (about:blank).</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_10 Ref CSIP4 </td>
-		<td>Content Information Type Specification mets/\ @csip:CONTENTINFORMATIONTYPE </td>
-		<td>For representations that primarily contain relational databases and that conforms to CITS SIARD the value in Package mets/\ @csip:CONTENTINFORMATIONTYPE <b>MUST</b> be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] (about:blank).</td>
+		<td>Content Information Type Specification mets/\ @csip:CONTENTI NFORMATIONTYPE </td>
+		<td>For r epresentations that primarily contain relational databases and that conforms to CITS SIARD the value in Package mets/\ @csip:CONTENTI NFORMATIONTYPE <b>MUST</b> be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] (about:blank).</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_11 Ref CSIP5 </td>
-		<td>Other Content Information Type Specification mets/\@csip :OTHERCONTENTINFORMATIONTYPE </td>
-		<td>For representations where mets/\ @csip:CONTENTINFORMATIONTYPE has the value &quot;CITS_SIARD&quot; then mets/\@csip :OTHERCONTENTINFORMATIONTYPE <b>MUST</b> have a value taken from the vocabulary {SIARD_1.0; SIARD_2.0, SIARD_2.1, Database_dump}</td>
+		<td>Other Content Information Type Specification mets/\@csip :OTHERCONTENTI NFORMATIONTYPE </td>
+		<td>For r epresentations where mets/\ @csip:CONTENTI NFORMATIONTYPE has the value &quot;CITS_SIARD&quot; then mets/\@csip :OTHERCONTENTI NFORMATIONTYPE <b>MUST</b> have a value taken from the vocabulary {SIARD_1.0; SIARD_2.0, SIARD_2.1, Database_dump}</td>
 		<td>0..0 NOT </td>
 	</tr>
 	<tr>
@@ -357,8 +357,8 @@ and Usage</th>
 	</tr>
 	<tr>
 		<td>SIARD_13 Ref CSIP64-CSIP79 </td>
-		<td>File Pointer fileSec/file Grp/file\@csip :OTHERCONTENTINFORMATIONTYPE </td>
-		<td>If the value in mets/\@csip :OTHERCONTENTINFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1, Database_dump} then there <b>MUST</b> exist one and only one file in the fileGrp with \@USE = &quot;data&quot; with an identical value in fileSec/file Grp/file\@csip :OTHERCONTENTINFORMATIONTYPE that is used to locate the relevant database file.</td>
+		<td>File Pointer fileSec/file Grp/file\@csip :OTHERCONTENTI NFORMATIONTYPE </td>
+		<td>If the value in mets/\@csip :OTHERCONTENTI NFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1, Database_dump} then there <b>MUST</b> exist one and only one file in the fileGrp with \@USE = &quot;data&quot; with an identical value in fileSec/file Grp/file\@csip :OTHERCONTENTI NFORMATIONTYPE that is used to locate the relevant database file.</td>
 		<td>1..1 MUST </td>
 	</tr>
 </tbody>
@@ -384,19 +384,19 @@ and Usage</th>
 	<tr>
 		<td>SIARD_9 Ref CSIP2 </td>
 		<td>Type mets/\@TYPE </td>
-		<td>For representations that primarily contain relational databases the value in Package mets/\@TYPE <b>MUST</b> be &quot;Databases&quot; as taken from the CSIP Vocabulary for [Content Category] (about:blank).</td>
+		<td>For r epresentations that primarily contain relational databases the value in Package mets/\@TYPE <b>MUST</b> be &quot;Databases&quot; as taken from the CSIP Vocabulary for [Content Category] (about:blank).</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_10 Ref CSIP4 </td>
-		<td>Content Information Type Specification mets/\ @csip:CONTENTINFORMATIONTYPE </td>
-		<td>For representations that primarily contain relational databases and that conforms to CITS SIARD the value in Package mets/\ @csip:CONTENTINFORMATIONTYPE <b>MUST</b> be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] (about:blank).</td>
+		<td>Content Information Type Specification mets/\ @csip:CONTENTI NFORMATIONTYPE </td>
+		<td>For r epresentations that primarily contain relational databases and that conforms to CITS SIARD the value in Package mets/\ @csip:CONTENTI NFORMATIONTYPE <b>MUST</b> be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] (about:blank).</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_11 Ref CSIP5 </td>
-		<td>Other Content Information Type Specification mets/\@csip :OTHERCONTENTINFORMATIONTYPE </td>
-		<td>For representations where mets/\ @csip:CONTENTINFORMATIONTYPE has the value &quot;CITS_SIARD&quot; then mets/\@csip :OTHERCONTENTINFORMATIONTYPE <b>MUST</b> have a value taken from the vocabulary {SIARD_1.0; SIARD_2.0, SIARD_2.1, Database_dump}</td>
+		<td>Other Content Information Type Specification mets/\@csip :OTHERCONTENTI NFORMATIONTYPE </td>
+		<td>For r epresentations where mets/\ @csip:CONTENTI NFORMATIONTYPE has the value &quot;CITS_SIARD&quot; then mets/\@csip :OTHERCONTENTI NFORMATIONTYPE <b>MUST</b> have a value taken from the vocabulary {SIARD_1.0; SIARD_2.0, SIARD_2.1, Database_dump}</td>
 		<td>0..0 NOT </td>
 	</tr>
 	<tr>
@@ -407,8 +407,8 @@ and Usage</th>
 	</tr>
 	<tr>
 		<td>SIARD_13 Ref CSIP64-CSIP79 </td>
-		<td>File Pointer fileSec/file Grp/file\@csip :OTHERCONTENTINFORMATIONTYPE </td>
-		<td>If the value in mets/\@csip :OTHERCONTENTINFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1, Database_dump} then there <b>MUST</b> exist one and only one file in the fileGrp with \@USE = &quot;data&quot; with an identical value in fileSec/file Grp/file\@csip :OTHERCONTENTINFORMATIONTYPE that is used to locate the relevant database file.</td>
+		<td>File Pointer fileSec/file Grp/file\@csip :OTHERCONTENTI NFORMATIONTYPE </td>
+		<td>If the value in mets/\@csip :OTHERCONTENTI NFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1, Database_dump} then there <b>MUST</b> exist one and only one file in the fileGrp with \@USE = &quot;data&quot; with an identical value in fileSec/file Grp/file\@csip :OTHERCONTENTI NFORMATIONTYPE that is used to locate the relevant database file.</td>
 		<td>1..1 MUST </td>
 	</tr>
 </tbody>
@@ -639,8 +639,12 @@ Usage</th>
 	<tr>
 		<td>SIARD_31 </td>
 		<td> </td>
-		<td>The (main) system-user dialogues <b>SHOULD</b> be documented, down to the identification of the database coulumns/fields involved in the dialogues, documented as a combination of: &#183; Screenshots, annotated with coulumn/field descriptions, stored in the Documentation folder. &#183; User documentation describing the system-user dialogue, stored in the Documentation folder. &#183; Views, if available, as part of the SIARD file. &#183; If views are not present, additional descriptions of the system (application) logic, stored in the Documentation folder.</td>
-		<td>1..n SHOULD </td>
+		<td>The (main) system-user dialogues <b>SHOULD</b> be documented, down to the identification of the database coulumns/fields involved in the dialogues, documented as a combination of: 
+		<ul>
+<li><p>Screenshots, annotated with coulumn/field descriptions, stored in the Documentation folder.</p></li>
+<li><p>User documentation describing the system-user dialogue, stored in the Documentation folder.</p></li>
+<li><p>If views are not present, additional descriptions of the system (application) logic, stored in the Documentation folder.</p></li>
+</ul>
 	</tr>
 	<tr>
 		<td>SIARD_32 </td>
@@ -709,7 +713,7 @@ Usage</th>
 
  
 
-##   **Postface**
+## Postface
 
 
 <table>
@@ -761,8 +765,6 @@ Usage</th>
   </tr>
 </table>
 
- 
-
 <table>
   <tr>
    <td colspan="2" ><strong>REVIEWER(S)</strong>
@@ -786,8 +788,6 @@ Usage</th>
    <td>National Archives of Estonia
    </td>
   </tr>
-   <td>
-   </td>
   <tr>
    <td>Jaime Kaminski
    </td>
@@ -804,11 +804,9 @@ Usage</th>
   </tr>
 </table>
 
- 
-
 <table>
   <tr>
-   <td colspan="3" ><strong>Project co-funded by the European Commission                                                                           within the ICT Policy Support Programme</strong>
+   <td colspan="3" ><strong>Project co-funded by the European Commission within the ICT Policy Support Programme</strong>
    </td>
   </tr>
   <tr>
