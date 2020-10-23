@@ -83,7 +83,7 @@ A full list of contributors to this specification, as well as the revision histo
 
 **TABLE OF CONTENTS**
 
-**[2 Context](#context)** 
+**[2 Context](#2-context)** 
 
 > [2.1 Purpose](#purpose) 
 >
