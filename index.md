@@ -761,8 +761,6 @@ Usage</th>
   </tr>
 </table>
 
- 
-
 <table>
   <tr>
    <td colspan="2" ><strong>REVIEWER(S)</strong>
@@ -801,8 +799,6 @@ Usage</th>
    </td>
   </tr>
 </table>
-
- 
 
 <table>
   <tr>
