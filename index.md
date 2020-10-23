@@ -786,8 +786,6 @@ Usage</th>
    <td>National Archives of Estonia
    </td>
   </tr>
-   <td>
-   </td>
   <tr>
    <td>Jaime Kaminski
    </td>
