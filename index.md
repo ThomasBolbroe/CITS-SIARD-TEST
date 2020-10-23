@@ -1,4 +1,6 @@
-<img align="right" width="100" height="100" ![](pictures/draft.png)
+<p align="center">
+  ![](pictures/draft.png)
+</p>
 
 ## 1 Preface
 
