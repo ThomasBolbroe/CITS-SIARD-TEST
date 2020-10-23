@@ -806,7 +806,7 @@ Usage</th>
 
 <table>
   <tr>
-   <td colspan="3" ><strong>Project co-funded by the European Commission                                                                           within the ICT Policy Support Programme</strong>
+   <td colspan="3" ><strong>Project co-funded by the European Commission within the ICT Policy Support Programme</strong>
    </td>
   </tr>
   <tr>
