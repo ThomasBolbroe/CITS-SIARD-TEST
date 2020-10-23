@@ -633,7 +633,7 @@ Usage</th>
 	<tr>
 		<td>SIARD_30 </td>
 		<td> </td>
-		<td>There <b>SHOULD</b> be a system diagram in the Documentation folder. Preferably an E ntity/Relationship Diagramme</td>
+		<td>There <b>SHOULD</b> be a system diagram in the Documentation folder. Preferably an Entity/Relationship Diagramme</td>
 		<td>1..n SHOULD </td>
 	</tr>
 	<tr>
