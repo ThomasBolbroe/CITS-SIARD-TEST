@@ -334,19 +334,19 @@ and Usage</th>
 	<tr>
 		<td>SIARD_9 Ref CSIP2 </td>
 		<td>Type mets/\@TYPE </td>
-		<td>For r epresentations that primarily contain relational databases the value in Package mets/\@TYPE <b>MUST</b> be &quot;Databases&quot; as taken from the CSIP Vocabulary for [Content Category] (about:blank).</td>
+		<td>For representations that primarily contain relational databases the value in Package mets/\@TYPE <b>MUST</b> be &quot;Databases&quot; as taken from the CSIP Vocabulary for [Content Category] (about:blank).</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_10 Ref CSIP4 </td>
 		<td>Content Information Type Specification mets/\ @csip:CONTENTINFORMATIONTYPE </td>
-		<td>For r epresentations that primarily contain relational databases and that conforms to CITS SIARD the value in Package mets/\ @csip:CONTENTINFORMATIONTYPE <b>MUST</b> be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] (about:blank).</td>
+		<td>For representations that primarily contain relational databases and that conforms to CITS SIARD the value in Package mets/\ @csip:CONTENTINFORMATIONTYPE <b>MUST</b> be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] (about:blank).</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_11 Ref CSIP5 </td>
 		<td>Other Content Information Type Specification mets/\@csip :OTHERCONTENTINFORMATIONTYPE </td>
-		<td>For r epresentations where mets/\ @csip:CONTENTINFORMATIONTYPE has the value &quot;CITS_SIARD&quot; then mets/\@csip :OTHERCONTENTINFORMATIONTYPE <b>MUST</b> have a value taken from the vocabulary {SIARD_1.0; SIARD_2.0, SIARD_2.1, Database_dump}</td>
+		<td>For representations where mets/\ @csip:CONTENTINFORMATIONTYPE has the value &quot;CITS_SIARD&quot; then mets/\@csip :OTHERCONTENTINFORMATIONTYPE <b>MUST</b> have a value taken from the vocabulary {SIARD_1.0; SIARD_2.0, SIARD_2.1, Database_dump}</td>
 		<td>0..0 NOT </td>
 	</tr>
 	<tr>
@@ -384,19 +384,19 @@ and Usage</th>
 	<tr>
 		<td>SIARD_9 Ref CSIP2 </td>
 		<td>Type mets/\@TYPE </td>
-		<td>For r epresentations that primarily contain relational databases the value in Package mets/\@TYPE <b>MUST</b> be &quot;Databases&quot; as taken from the CSIP Vocabulary for [Content Category] (about:blank).</td>
+		<td>For representations that primarily contain relational databases the value in Package mets/\@TYPE <b>MUST</b> be &quot;Databases&quot; as taken from the CSIP Vocabulary for [Content Category] (about:blank).</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_10 Ref CSIP4 </td>
 		<td>Content Information Type Specification mets/\ @csip:CONTENTINFORMATIONTYPE </td>
-		<td>For r epresentations that primarily contain relational databases and that conforms to CITS SIARD the value in Package mets/\ @csip:CONTENTINFORMATIONTYPE <b>MUST</b> be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] (about:blank).</td>
+		<td>For representations that primarily contain relational databases and that conforms to CITS SIARD the value in Package mets/\ @csip:CONTENTINFORMATIONTYPE <b>MUST</b> be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] (about:blank).</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_11 Ref CSIP5 </td>
 		<td>Other Content Information Type Specification mets/\@csip :OTHERCONTENTINFORMATIONTYPE </td>
-		<td>For r epresentations where mets/\ @csip:CONTENTINFORMATIONTYPE has the value &quot;CITS_SIARD&quot; then mets/\@csip :OTHERCONTENTINFORMATIONTYPE <b>MUST</b> have a value taken from the vocabulary {SIARD_1.0; SIARD_2.0, SIARD_2.1, Database_dump}</td>
+		<td>For representations where mets/\ @csip:CONTENTINFORMATIONTYPE has the value &quot;CITS_SIARD&quot; then mets/\@csip :OTHERCONTENTINFORMATIONTYPE <b>MUST</b> have a value taken from the vocabulary {SIARD_1.0; SIARD_2.0, SIARD_2.1, Database_dump}</td>
 		<td>0..0 NOT </td>
 	</tr>
 	<tr>
