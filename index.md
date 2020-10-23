@@ -1,7 +1,11 @@
-<p align="center">
-   <b>![](pictures/draft.png)
-</b>
+https://github.com/ThomasBolbroe/CITS-SIARD-TEST/blob/main/pictures/draft.png
+   <p align="center">
+  <b>Some Links:</b><br>
+  <a href="#"![](pictures/The_E-ARK_specification_dependency_hierarchy.png)</a> |
+  <br><br>
 </p>
+
+
 
 ## 1 Preface
 
