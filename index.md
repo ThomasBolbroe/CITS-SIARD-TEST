@@ -274,7 +274,7 @@ and Usage</th>
 	<tr>
 		<td>SIARD_4 Ref CSIP5 </td>
 		<td>Other Content Information Type Specification mets/\@csip :OTHERCONTENTI NFORMATIONTYPE </td>
-		<td>For information packages that primarily contain relational databases the Package METS must **NOT** have a mets/\@csip :OTHERCONTENTI NFORMATIONTYPE</td>
+		<td>For information packages that primarily contain relational databases the Package METS must <b>NOT</b> have a mets/\@csip :OTHERCONTENTI NFORMATIONTYPE</td>
 		<td>0..0 NOT </td>
 	</tr>
 	<tr>
