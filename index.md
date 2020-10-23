@@ -90,32 +90,32 @@ A full list of contributors to this specification, as well as the revision histo
 > [2.2 Layered data model](#22-layered-data-model) 
 >
 > [2.3 The boundaries of this specification and the
-> SIARD-specification](#_awb2q9n7ozcq) 
+> SIARD-specification](#23-the-boundaries-of-this-specification-and-the-siard-specification) 
 
-**[3 CITS SIARD Requirements](#cits-siard-requirements)** 
+**[3 CITS SIARD Requirements](#3-cits-siard-requirements)** 
 
-> [3.1 Folder structure and example](#folder-structure-and-example) 
+> [3.1 Folder structure and example](#f31-older-structure-and-example) 
 >
 > [3.2 Package and Representation
-> METS](#package-and-representation-mets) 
+> METS](#32-package-and-representation-mets) 
 >
-> [3.2 Package METS requirements](#package-mets-requirements) 
+> [3.3 Package METS requirements](#33-package-mets-requirements) 
 >
 > [3.4 Representation METS
-> requirements](#representation-mets-requirements) 
+> requirements](#34-representation-mets-requirements) 
 >
 > [3.5 METS requirements between Package and
-> Representation](#mets-requirements-between-package-and-representation)
+> Representation](#35-mets-requirements-between-package-and-representation)
 >
 >
 > [3.6 {SIARD_1.0, SIARD2.0, SIARD2.1} --
-> requirements](#siard_1.0-siard2.0-siard2.1-requirements) 
+> requirements](#36-siard_1.0-siard2.0-siard2.1-requirements) 
 >
-> [3.7 {Database_dump} -- requirements](#database_dump-requirements) 
+> [3.7 {Database_dump} -- requirements](#-37database_dump-requirements) 
 
-> [3.8 {SIARD_lobs} -- requirements](#_sxv4sbhj2v7i) 
+> [3.8 {SIARD_lobs} -- requirements](#38-siard_lobs--requirements) 
 
-**[4 SIP requirements](#_8knc2ib75ldo)** 
+**[4 SIP requirements](#4-sip-requirements)** 
 
 > [4.1 Submission Agreement
 > requirements](#submission-agreement-requirements) 
