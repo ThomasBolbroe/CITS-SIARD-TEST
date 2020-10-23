@@ -118,13 +118,13 @@ A full list of contributors to this specification, as well as the revision histo
 **[4 SIP requirements](#4-sip-requirements)** 
 
 > [4.1 Submission Agreement
-> requirements](#submission-agreement-requirements) 
+> requirements](#41-submission-agreement-requirements) 
 
-**[5 AIP requirements](#aip-requirements)** 
+**[5 AIP requirements](#5-aip-requirements)** 
 
-**[6 DIP requirements](#dip-requirements)** 
+**[6 DIP requirements](#6-dip-requirements)** 
 
-**[7 Documentation requirements](#documentation-requirements)** 
+**[7 Documentation requirements](#7-documentation-requirements)** 
 
 **[Glossary](#glossary)** 
 
