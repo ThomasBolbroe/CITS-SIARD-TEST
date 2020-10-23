@@ -658,12 +658,6 @@ Usage</th>
 		<td>There <b>MAY</b> be videos or screen dumps from the system as seen from the user&#39;s point of view in the Documentation folder.</td>
 		<td>1..n SHOULD </td>
 	</tr>
-</tbody>
-</table>
-
-
-
- 
             
 
 
