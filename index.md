@@ -285,8 +285,8 @@ and Usage</th>
 	</tr>
 	<tr>
 		<td>SIARD_6 Ref CSIP62 </td>
-		<td>fileSec Representation Content Information Type Specification mets/file Sec/fileGrp\[\ @USE=\&#39;Represe ntations\&#39;\]/\ @csip:CONTENTINFORMATIONTYPE </td>
-		<td>There <b>MUST</b> be a minimum of one mets/file Sec/fileGrp\[\ @USE=\&#39;Represe ntations\&#39;\]/\ @csip:CONTENTINFORMATIONTYPE with the value &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type ](about:blank) that direct to the representation METS.xml in the representation containing a relational database.</td>
+		<td>fileSec Representation Content Information Type Specification mets/file Sec/fileGrp\[\ @USE=\&#39;Representations\&#39;\]/\ @csip:CONTENTINFORMATIONTYPE </td>
+		<td>There <b>MUST</b> be a minimum of one mets/file Sec/fileGrp\[\ @USE=\&#39;Representations\&#39;\]/\ @csip:CONTENTINFORMATIONTYPE with the value &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type ](about:blank) that direct to the representation METS.xml in the representation containing a relational database.</td>
 		<td>1..n MUST </td>
 	</tr>
 	<tr>
@@ -433,7 +433,7 @@ Usage</th>
 	<tr>
 		<td>SIARD_15 </td>
 		<td> </td>
-		<td>If the value in met s/\@csip:OTHERCONT ENTINFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1} then there <b>MUST</b> exist a file named \[da tabaseName\].siard in represe ntations/\[Represe ntationName\]/data</td>
+		<td>If the value in met s/\@csip:OTHERCONT ENTINFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1} then there <b>MUST</b> exist a file named \[da tabaseName\].siard in Representations/\[Represe ntationName\]/data</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
@@ -485,7 +485,7 @@ Usage</th>
 	<tr>
 		<td>SIARD_20 </td>
 		<td> </td>
-		<td>If the value in met s/\@csip:OTHERCONT ENTINFORMATIONTYPE is &quot;Database_dump&quot; then there <b>MUST</b> exist a proprietary database dump in represe ntations/\[Represe ntationName\]/data</td>
+		<td>If the value in met s/\@csip:OTHERCONT ENTINFORMATIONTYPE is &quot;Database_dump&quot; then there <b>MUST</b> exist a proprietary database dump in Representations/\[Represe ntationName\]/data</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
