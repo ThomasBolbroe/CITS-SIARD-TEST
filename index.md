@@ -106,7 +106,7 @@ A full list of contributors to this specification, as well as the revision histo
 >
 > [3.5 METS requirements between Package and
 > Representation](#mets-requirements-between-package-and-representation)
-> 12
+>
 >
 > [3.6 {SIARD_1.0, SIARD2.0, SIARD2.1} --
 > requirements](#siard_1.0-siard2.0-siard2.1-requirements) 
