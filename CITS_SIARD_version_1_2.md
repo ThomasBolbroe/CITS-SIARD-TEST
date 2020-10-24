@@ -1,3 +1,4 @@
+  ![](pictures/draft.png)
 
 ## 1 Preface
 
@@ -13,91 +14,60 @@ The foundation for these specifications is the Reference Model for an Open Archi
    
   **The E-ARK specification dependency hierarchy**
  
-
 <table>
-  <tr>
-   <td>Specification
-   </td>
-   <td>Aim and Goals
-   </td>
-  </tr>
-  <tr>
-   <td>Common Specification for Information Packages
-   </td>
-   <td>This document introduces the concept of a Common Specification for Information Packages (CSIP). Its three main purposes are to: 
+<thead>
+<tr class="header">
+<th>Specification</th>
+<th>Aim and Goals</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Common Specification for Information Packages</td>
+<td><p>This document introduces the concept of a Common Specification for Information Packages (CSIP). Its three main purposes are to:</p>
 <ul>
-
-<li>Establish a common understanding of the requirements which need to be met in order to achieve interoperability of Information Packages.
-
-<li>Establish a common base for the development of more specific Information Package definitions and tools within the digital preservation community.
-
-<li>Propose the details of an XML-based implementation of the requirements using, to the largest possible extent, standards which are widely used in international digital preservation. 
-
-<p>
-Ultimately the goal of the Common Specification is to reach a level of interoperability between all Information Packages so that tools implementing the Common Specification can be adopted by institutions without the need for further modifications or adaptations.
-</li>
+<li><p>Establish a common understanding of the requirements which need to be met in order to achieve interoperability of Information Packages.</p></li>
+<li><p>Establish a common base for the development of more specific Information Package definitions and tools within the digital preservation community.</p></li>
+<li><p>Propose the details of an XML-based implementation of the requirements using, to the largest possible extent, standards which are widely used in international digital preservation.</p></li>
 </ul>
-   </td>
-  </tr>
-  <tr>
-   <td>E-ARK SIP
-   </td>
-   <td>The main aims of this specification are to:
+<p>Ultimately the goal of the Common Specification is to reach a level of interoperability between all Information Packages so that tools implementing the Common Specification can be adopted by institutions without the need for further modifications or adaptations.</p></td>
+</tr>
+<tr class="even">
+<td>E-ARK SIP</td>
+<td><p>The main aims of this specification are to:</p>
 <ul>
-
-<li>Define a general structure for a Submission Information Package format suitable for a wide variety of archival scenarios, e.g. document and image collections, databases or geographical data.
-
-<li>Enhance interoperability between Producers and Archives.
-
-<li>Recommend best practices regarding metadata, content and structure of Submission Information Packages.
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>E-ARK AIP
-   </td>
-   <td>The main aims of this specification are to:
+<li><p>Define a general structure for a Submission Information Package format suitable for a wide variety of archival scenarios, e.g. document and image collections, databases or geographical data.</p></li>
+<li><p>Enhance interoperability between Producers and Archives.</p></li>
+<li><p>Recommend best practices regarding metadata, content and structure of Submission Information Packages.</p></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>E-ARK AIP</td>
+<td><p>The main aims of this specification are to:</p>
 <ul>
-
-<li>Define a generic structure of the AIP format suitable for a wide variety of data types, such as document and image collections, archival records, databases or geographical data.
-
-<li>Recommend a set of metadata related to the structural and the preservation aspects of the AIP as implemented by the reference implementation eArchiving ToolBox (formerly earkweb).
-
-<li>Ensure the format is suitable to store large quantities of data.
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>E-ARK DIP
-   </td>
-   <td>The main aims of this specification are to:
+<li><p>Define a generic structure of the AIP format suitable for a wide variety of data types, such as document and image collections, archival records, databases or geographical data.</p></li>
+<li><p>Recommend a set of metadata related to the structural and the preservation aspects of the AIP as implemented by the reference implementation eArchiving ToolBox (formerly earkweb).</p></li>
+<li><p>Ensure the format is suitable to store large quantities of data.</p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>E-ARK DIP</td>
+<td><p>The main aims of this specification are to:</p>
 <ul>
-
-<li>Define a generic structure of the DIP format suitable for a wide variety of archival records, such as document and image collections, databases or geographical data.
-
-<li>Recommend a set of metadata related to the structural and access aspects of the DIP.
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>Content Information Type Specifications
-   </td>
-   <td>The main aim and goal of a Content Information Type Specification is to:
+<li><p>Define a generic structure of the DIP format suitable for a wide variety of archival records, such as document and image collections, databases or geographical data.</p></li>
+<li><p>Recommend a set of metadata related to the structural and access aspects of the DIP.</p></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>Content Information Type Specifications</td>
+<td><p>The main aim and goal of a Content Information Type Specification is to:</p>
 <ul>
-
-<li>Define, in technical terms, how data and metadata must be formatted and placed within a CSIP Information Package in order to achieve interoperability in exchanging specific Content Information.
-
-<p>
-The number of possible Content Information Type Specifications is unlimited. 
-</li>
+<li><p>Define, in technical terms, how data and metadata must be formatted and placed within a CSIP Information Package in order to achieve interoperability in exchanging specific Content Information.</p></li>
 </ul>
-   </td>
-  </tr>
+<p>The number of possible Content Information Type Specifications is unlimited.</p></td>
+</tr>
+</tbody>
 </table>
-
 
 
 
@@ -113,48 +83,48 @@ A full list of contributors to this specification, as well as the revision histo
 
 **TABLE OF CONTENTS**
 
-**[2 Context](#context)** 
+**[2 Context](#2-context)** 
 
-> [2.1 Purpose](#purpose) 
+> [2.1 Purpose](#21-purpose) 
 >
-> [2.2 Layered data model](#layered-data-model) 
+> [2.2 Layered data model](#22-layered-data-model) 
 >
 > [2.3 The boundaries of this specification and the
-> SIARD-specification](#_awb2q9n7ozcq) 
+> SIARD-specification](#23-the-boundaries-of-this-specification-and-the-siard-specification) 
 
-**[3 CITS SIARD Requirements](#cits-siard-requirements)** 
+**[3 CITS SIARD Requirements](#3-cits-siard-requirements)** 
 
-> [3.1 Folder structure and example](#folder-structure-and-example) 
+> [3.1 Folder structure and example](#31-folder-structure-and-example) 
 >
 > [3.2 Package and Representation
-> METS](#package-and-representation-mets) 
+> METS](#32-package-and-representation-mets) 
 >
-> [2.3 Package METS requirements](#package-mets-requirements) 
+> [3.3 Package METS requirements](#33-package-mets-requirements) 
 >
 > [3.4 Representation METS
-> requirements](#representation-mets-requirements) 
+> requirements](#34-representation-mets-requirements) 
 >
 > [3.5 METS requirements between Package and
-> Representation](#mets-requirements-between-package-and-representation)
-> 12
+> Representation](#35-mets-requirements-between-package-and-representation)
+>
 >
 > [3.6 {SIARD_1.0, SIARD2.0, SIARD2.1} --
-> requirements](#siard_1.0-siard2.0-siard2.1-requirements) 
+> requirements](#36-siard_10-siard20-siard21--requirements) 
 >
-> [3.7 {Database_dump} -- requirements](#database_dump-requirements) 
+> [3.7 {Database_dump} -- requirements](#-37database_dump-requirements) 
 
-> [3.8 {SIARD_lobs} -- requirements](#_sxv4sbhj2v7i) 
+> [3.8 {SIARD_lobs} -- requirements](#38-siard_lobs--requirements) 
 
-**[4 SIP requirements](#_8knc2ib75ldo)** 
+**[4 SIP requirements](#4-sip-requirements)** 
 
 > [4.1 Submission Agreement
-> requirements](#submission-agreement-requirements) 
+> requirements](#41-submission-agreement-requirements) 
 
-**[5 AIP requirements](#aip-requirements)** 
+**[5 AIP requirements](#5-aip-requirements)** 
 
-**[6 DIP requirements](#dip-requirements)** 
+**[6 DIP requirements](#6-dip-requirements)** 
 
-**[7 Documentation requirements](#documentation-requirements)** 
+**[7 Documentation requirements](#7-documentation-requirements)** 
 
 **[Glossary](#glossary)** 
 
@@ -184,7 +154,7 @@ This section introduces the structure of the data model, which is based on a lay
  ![](pictures/Data_Model_Structure.png)
 
 
-**Figure 1: Data Model Structure**
+**Figure 1: Data Model Structure** (name=figure 1)
 
 Every level in the data model structure inherits metadata entities and elements from the higher levels. In order to increase adoption, a flexible schema has been developed. This will allow for extension points where the schema in each layer can be extended to accommodate additional information on the next specific layer until, finally, the local implementation can add specific entities or metadata elements to satisfy very specific local needs. Extension points can be implemented by:
 
@@ -208,8 +178,8 @@ For consistency, design principles are reused between layers as much as possible
 SIARD is an independent format for archiving relational databases and hence has its own specification ([https://github.com/DILCISBoard/SIARD](https://github.com/DILCISBoard/SIARD)) but there are areas where the SIARD specification deliberately states that packaging of the SIARD-file among other aspect is outside the scope of the SIARD specification:
 
 
-    _“It should be noted that the SIARD format is only the long-term storage format for a specific type of digital documents (relational databases) and is therefore designed entirely independently of package structures such as the SIP (Submission Information Package), AIP (Archival Information Package) and DIP (Dissemination Information Package) in the OAIS model. It is assumed that a database in SIARD format is archived as part of such an information package together with other documents (externalized large object files, translation maps for external file names, database documentation, business documents relevant to the understanding of the database, etc.).”_
- - SIARD 2.1.1, p. 7_
+>“It should be noted that the SIARD format is only the long-term storage format for a specific type of digital documents (relational databases) and is therefore designed entirely independently of package structures such as the SIP (Submission Information Package), AIP (Archival Information Package) and DIP (Dissemination Information Package) in the OAIS model. It is assumed that a database in SIARD format is archived as part of such an information package together with other documents (externalized large object files, translation maps for external file names, database documentation, business documents relevant to the understanding of the database, etc.).” -
+ SIARD 2.1.1, p. 7
 
 This CITS SIARD specification describes how to package SIARD-files and any accompanying external LOBs in CSIP package(s). This specification also describes how to package extra metadata and context documentation so that long term preservation and dissemination can take place. 
 
@@ -253,28 +223,23 @@ As for this specification there always needs to be a minimum of one representati
 
 
 <table>
-  <tr>
-   <td>ID
-   </td>
-   <td>Name and Location 
-   </td>
-   <td colspan="2" >Description and Usage
-   </td>
-   <td>Card & Level
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_1
-   </td>
-   <td colspan="2" >
-   </td>
-   <td>There <strong>MUST </strong>be minimum one representation and therefore minimum one Package METS.xml and minimum one Representation METS.xml in a CITS SIARD package.
-   </td>
-   <td>1..1
-<p>
-      MUST
-   </td>
-  </tr>
+<thead>
+	<tr>
+		<th>ID</th>
+		<th>Name and Location</th>
+		<th>Description and
+Usage</th>
+		<th>Card &amp; Level</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>SIARD_1</td>
+		<td></td>
+		<td>There <b>MUST</b> be minimum one representation and therefore minimum one Package METS.xml and minimum one Representation METS.xml in a CITS SIARD package.</td>
+		<td>1..1 MUST </td>
+	</tr>
+</tbody>
 </table>
 
 
@@ -283,126 +248,60 @@ As for this specification there always needs to be a minimum of one representati
 
 
 <table>
-  <tr>
-   <td>ID
-   </td>
-   <td>Name and Location 
-   </td>
-   <td colspan="2" >Description and Usage
-   </td>
-   <td colspan="2" >Card & Level
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_2
-<p>
-Ref CSIP2
-   </td>
-   <td colspan="2" >Type 
-<p>
-mets/@TYPE
-   </td>
-   <td colspan="2" >For information packages that primarily contain relational databases the value in Package mets/@TYPE <strong>MUST</strong> be “Databases” as taken from the CSIP Vocabulary for <a href="https://earkcsip.dilcis.eu/schema/CSIPVocabularyContentCategory.xml">Content Category</a>. 
-   </td>
-   <td>1..1
-<p>
-      MUST
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_3
-<p>
-Ref CSIP4
-   </td>
-   <td colspan="2" >Content Information Type Specification
-<p>
-mets/@csip:CONTENTINFORMATIONTYPE
-   </td>
-   <td>For information packages that primarily contain relational databases the value in Package mets/@csip:CONTENTINFORMATIONTYPE <strong>MUST</strong> be “CITS_SIARD” as taken from the CSIP Vocabulary for <a href="https://earkcsip.dilcis.eu/schema/CSIPVocabularyContentInformationType.xml">Content Information Type</a>.  
-   </td>
-   <td colspan="2" >1..1
-<p>
-      MUST
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_4
-<p>
-Ref CSIP5
-   </td>
-   <td colspan="2" >Other Content Information Type Specification
-<p>
-mets/@csip:OTHERCONTENTINFORMATIONTYPE 
-   </td>
-   <td>For information packages that primarily contain relational databases the Package METS must<strong> NOT</strong> have a mets/@csip:OTHERCONTENTINFORMATIONTYPE 
-   </td>
-   <td colspan="2" >0..0
-<p>
-      NOT
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_5
-<p>
-Ref CSIP6
-   </td>
-   <td colspan="2" >METS Profile
-<p>
-mets/@PROFILE 
-   </td>
-   <td>For information packages that primarily contain relational databases the value in the @PROFILE <strong>MUST</strong> be "https://SIARD.dilcis.eu/profile/CITS_SIARD.xml"
-   </td>
-   <td colspan="2" >1..1
-<p>
-      MUST
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_6
-<p>
-Ref CSIP62
-   </td>
-   <td colspan="2" >fileSec Representation Content Information Type Specification
-<p>
-mets/fileSec/fileGrp[@USE='Representations']/@csip:CONTENTINFORMATIONTYPE
-   </td>
-   <td>There <strong>MUST</strong> be a minimum of one mets/fileSec/fileGrp[@USE='Representations']/@csip:CONTENTINFORMATIONTYPE with the value “CITS_SIARD” as taken from the CSIP Vocabulary for <a href="https://earkcsip.dilcis.eu/schema/CSIPVocabularyContentInformationType.xml">Content Information Type</a> that direct to the representation METS.xml in the representation containing a relational database.
-   </td>
-   <td colspan="2" >1..n
-<p>
-      MUST
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_7
-<p>
-Ref CSIP63
-   </td>
-   <td colspan="2" >fileSec Other Content Information Type Specification
-<p>
-mets/fileSec/fileGrp[@csip:CONTENTINFORMATIONTYPE=' CITS_SIARD ']/@csip:OTHERCONTENTINFORMATIONTYPE
-   </td>
-   <td>For any mets/fileSec/fileGrp[@csip:CONTENTINFORMATIONTYPE  with the value “CITS_SIARD” there <strong>MUST</strong> be a @csip:OTHERCONTENTINFORMATIONTYPE attribute with a value taken from the vocabulary {SIARD_1.0; SIARD_2.0, SIARD_2.1, Database_dump}. 
-   </td>
-   <td colspan="2" >1..1
-<p>
-      MUST
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_8
-<p>
-Ref CSIP105-CSIP112
-   </td>
-   <td colspan="2" >StructMap METS pointer
-   </td>
-   <td>For any fileGrp/@csip:CONTENTINFORMATIONTYPE with the value “CITS_SIARD” there <strong>MUST</strong> be a corresponding @div-representation in the StructMap-element 
-   </td>
-   <td colspan="2" >1..1
-<p>
-      MUST
-   </td>
-  </tr>
+<thead>
+	<tr>
+		<th>ID</th>
+		<th>Name and
+Location</th>
+		<th>Description
+and Usage</th>
+		<th>Card &amp; Level</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>SIARD_2 Ref CSIP2 </td>
+		<td>Type mets/\@TYPE </td>
+		<td>For information packages that primarily contain relational databases the value in Package mets/\@TYPE <b>MUST</b> be &quot;Databases&quot; as taken from the CSIP Vocabulary for [Content Category] (about:blank).</td>
+		<td>1..1 MUST </td>
+	</tr>
+	<tr>
+		<td>SIARD_3 Ref CSIP4 </td>
+		<td>Content Information Type Specification mets/\ @csip:CONTENTINFORMATIONTYPE </td>
+		<td>For information packages that primarily contain relational databases the value in Package mets/\ @csip:CONTENTINFORMATIONTYPE <b>MUST</b> be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] (about:blank).</td>
+		<td>1..1 MUST </td>
+	</tr>
+	<tr>
+		<td>SIARD_4 Ref CSIP5 </td>
+		<td>Other Content Information Type Specification mets/\@csip :OTHERCONTENTINFORMATIONTYPE </td>
+		<td>For information packages that primarily contain relational databases the Package METS must <b>NOT</b> have a mets/\@csip :OTHERCONTENTINFORMATIONTYPE</td>
+		<td>0..0 NOT </td>
+	</tr>
+	<tr>
+		<td>SIARD_5 Ref CSIP6 </td>
+		<td>METS Profile mets/\@PROFILE </td>
+		<td>For information packages that primarily contain relational databases the value in the \@PROFILE <b>MUST</b> be \&quot;https: //SIARD.dilcis .eu/profile/CI TS_SIARD.xml\&quot;</td>
+		<td>1..1 MUST </td>
+	</tr>
+	<tr>
+		<td>SIARD_6 Ref CSIP62 </td>
+		<td>fileSec Representation Content Information Type Specification mets/file Sec/fileGrp\[\ @USE=\&#39;Representations\&#39;\]/\ @csip:CONTENTINFORMATIONTYPE </td>
+		<td>There <b>MUST</b> be a minimum of one mets/file Sec/fileGrp\[\ @USE=\&#39;Representations\&#39;\]/\ @csip:CONTENTINFORMATIONTYPE with the value &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type ](about:blank) that direct to the representation METS.xml in the representation containing a relational database.</td>
+		<td>1..n MUST </td>
+	</tr>
+	<tr>
+		<td>SIARD_7 Ref CSIP63 </td>
+		<td>fileSec Other Content Information Type Specification mets/fileSec /fileGrp\[\@cs ip:CONTENTINFO RMATIONTYPE=\&#39; CITS_SIARD \&#39;\]/\@csip :OTHERCONTENTINFORMATIONTYPE </td>
+		<td>For any mets/file Sec/fileGrp\[\ @csip:CONTENTINFORMATIONTYPE with the value &quot;CITS_SIARD&quot; there <b>MUST</b> be a \@csip :OTHERCONTENTINFORMATIONTYPE attribute with a value taken from the vocabulary {SIARD_1.0; SIARD_2.0, SIARD_2.1, D atabase_dump}.</td>
+		<td>1..1 MUST </td>
+	</tr>
+	<tr>
+		<td>SIARD_8 Ref C SIP105-CSIP112 </td>
+		<td>StructMap METS pointer </td>
+		<td>For any fileGrp/\ @csip:CONTENTINFORMATIONTYPE with the value &quot;CITS_SIARD&quot; there <b>MUST</b> be a corresponding \@div- representation in the StructMap-element</td>
+		<td>1..1 MUST </td>
+	</tr>
+</tbody>
 </table>
 
 
@@ -421,96 +320,48 @@ Example 1: Package METS element example.
 
 
 <table>
-  <tr>
-   <td>ID
-   </td>
-   <td>Name and Location 
-   </td>
-   <td colspan="2" >Description and Usage
-   </td>
-   <td colspan="2" >Card & Level
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_9
-<p>
-Ref CSIP2
-   </td>
-   <td colspan="2" >Type 
-<p>
-mets/@TYPE
-   </td>
-   <td colspan="2" >For representations that primarily contain relational databases the value in Package mets/@TYPE <strong>MUST</strong> be “Databases” as taken from the CSIP Vocabulary for <a href="https://earkcsip.dilcis.eu/schema/CSIPVocabularyContentCategory.xml">Content Category</a>. 
-   </td>
-   <td>1..1
-<p>
-      MUST
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_10
-<p>
-Ref CSIP4
-   </td>
-   <td colspan="2" >Content Information Type Specification
-<p>
-mets/@csip:CONTENTINFORMATIONTYPE
-   </td>
-   <td>For representations that primarily contain relational databases and that conforms to CITS SIARD the value in Package mets/@csip:CONTENTINFORMATIONTYPE <strong>MUST</strong> be “CITS_SIARD” as taken from the CSIP Vocabulary for <a href="https://earkcsip.dilcis.eu/schema/CSIPVocabularyContentInformationType.xml">Content Information Type</a>.  
-   </td>
-   <td colspan="2" >1..1
-<p>
-      MUST
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_11
-<p>
-Ref CSIP5
-   </td>
-   <td colspan="2" >Other Content Information Type Specification
-<p>
-mets/@csip:OTHERCONTENTINFORMATIONTYPE 
-   </td>
-   <td>For representations where  mets/@csip:CONTENTINFORMATIONTYPE has the value “CITS_SIARD” then mets/@csip:OTHERCONTENTINFORMATIONTYPE <strong>MUST</strong> have a value taken from the vocabulary {SIARD_1.0; SIARD_2.0, SIARD_2.1, Database_dump} 
-   </td>
-   <td colspan="2" >0..0
-<p>
-      NOT
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_12
-<p>
-Ref CSIP6
-   </td>
-   <td colspan="2" >METS Profile
-<p>
-mets/@PROFILE 
-   </td>
-   <td>For information packages that primarily contain relational databases the value in the @PROFILE <strong>MUST</strong> be "https://SIARD.dilcis.eu/profile/CITS_SIARD_representation.xml"
-   </td>
-   <td colspan="2" >1..1
-<p>
-      MUST
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_13
-<p>
-Ref CSIP64-CSIP79
-   </td>
-   <td colspan="2" >File Pointer
-<p>
-fileSec/fileGrp/file@csip:OTHERCONTENTINFORMATIONTYPE
-   </td>
-   <td>If the value in mets/@csip:OTHERCONTENTINFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1, Database_dump}  then there <strong>MUST</strong> exist one and only one file in the fileGrp with @USE = “data” with an identical value in fileSec/fileGrp/file@csip:OTHERCONTENTINFORMATIONTYPE that is used to locate the relevant database file. 
-   </td>
-   <td colspan="2" >1..1
-<p>
-      MUST
-   </td>
-  </tr>
+<thead>
+	<tr>
+		<th>ID</th>
+		<th>Name and
+Location</th>
+		<th>Description
+and Usage</th>
+		<th>Card &amp; Level</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>SIARD_9 Ref CSIP2 </td>
+		<td>Type mets/\@TYPE </td>
+		<td>For representations that primarily contain relational databases the value in Package mets/\@TYPE <b>MUST</b> be &quot;Databases&quot; as taken from the CSIP Vocabulary for [Content Category] (about:blank).</td>
+		<td>1..1 MUST </td>
+	</tr>
+	<tr>
+		<td>SIARD_10 Ref CSIP4 </td>
+		<td>Content Information Type Specification mets/\ @csip:CONTENTINFORMATIONTYPE </td>
+		<td>For representations that primarily contain relational databases and that conforms to CITS SIARD the value in Package mets/\ @csip:CONTENTINFORMATIONTYPE <b>MUST</b> be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] (about:blank).</td>
+		<td>1..1 MUST </td>
+	</tr>
+	<tr>
+		<td>SIARD_11 Ref CSIP5 </td>
+		<td>Other Content Information Type Specification mets/\@csip :OTHERCONTENTINFORMATIONTYPE </td>
+		<td>For representations where mets/\ @csip:CONTENTINFORMATIONTYPE has the value &quot;CITS_SIARD&quot; then mets/\@csip :OTHERCONTENTINFORMATIONTYPE <b>MUST</b> have a value taken from the vocabulary {SIARD_1.0; SIARD_2.0, SIARD_2.1, Database_dump}</td>
+		<td>0..0 NOT </td>
+	</tr>
+	<tr>
+		<td>SIARD_12 Ref CSIP6 </td>
+		<td>METS Profile mets/\@PROFILE </td>
+		<td>For information packages that primarily contain relational databases the value in the \@PROFILE <b>MUST</b> be \&quot;https:/ /SIARD.dilcis. eu/profile/CIT S_SIARD_repres entation.xml\&quot;</td>
+		<td>1..1 MUST </td>
+	</tr>
+	<tr>
+		<td>SIARD_13 Ref CSIP64-CSIP79 </td>
+		<td>File Pointer fileSec/file Grp/file\@csip :OTHERCONTENTINFORMATIONTYPE </td>
+		<td>If the value in mets/\@csip :OTHERCONTENTINFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1, Database_dump} then there <b>MUST</b> exist one and only one file in the fileGrp with \@USE = &quot;data&quot; with an identical value in fileSec/file Grp/file\@csip :OTHERCONTENTINFORMATIONTYPE that is used to locate the relevant database file.</td>
+		<td>1..1 MUST </td>
+	</tr>
+</tbody>
 </table>
 
 
@@ -519,30 +370,48 @@ fileSec/fileGrp/file@csip:OTHERCONTENTINFORMATIONTYPE
 
 
 <table>
-  <tr>
-   <td>ID
-   </td>
-   <td>Name and Location 
-   </td>
-   <td colspan="2" >Description and Usage
-   </td>
-   <td colspan="2" >Card & Level
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_14
-   </td>
-   <td colspan="2" >Type 
-<p>
-mets/@TYPE
-   </td>
-   <td colspan="2" >If the value in representation  mets/@csip:OTHERCONTENTINFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1, Database_dump}  then the Package METS.xml fileGrp who refers to the Package METS.xml <strong>MUST</strong> have the same value.
-   </td>
-   <td>1..1
-<p>
-      MUST
-   </td>
-  </tr>
+<thead>
+	<tr>
+		<th>ID</th>
+		<th>Name and
+Location</th>
+		<th>Description
+and Usage</th>
+		<th>Card &amp; Level</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>SIARD_9 Ref CSIP2 </td>
+		<td>Type mets/\@TYPE </td>
+		<td>For representations that primarily contain relational databases the value in Package mets/\@TYPE <b>MUST</b> be &quot;Databases&quot; as taken from the CSIP Vocabulary for [Content Category] (about:blank).</td>
+		<td>1..1 MUST </td>
+	</tr>
+	<tr>
+		<td>SIARD_10 Ref CSIP4 </td>
+		<td>Content Information Type Specification mets/\ @csip:CONTENTINFORMATIONTYPE </td>
+		<td>For representations that primarily contain relational databases and that conforms to CITS SIARD the value in Package mets/\ @csip:CONTENTINFORMATIONTYPE <b>MUST</b> be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] (about:blank).</td>
+		<td>1..1 MUST </td>
+	</tr>
+	<tr>
+		<td>SIARD_11 Ref CSIP5 </td>
+		<td>Other Content Information Type Specification mets/\@csip :OTHERCONTENTINFORMATIONTYPE </td>
+		<td>For representations where mets/\ @csip:CONTENTINFORMATIONTYPE has the value &quot;CITS_SIARD&quot; then mets/\@csip :OTHERCONTENTINFORMATIONTYPE <b>MUST</b> have a value taken from the vocabulary {SIARD_1.0; SIARD_2.0, SIARD_2.1, Database_dump}</td>
+		<td>0..0 NOT </td>
+	</tr>
+	<tr>
+		<td>SIARD_12 Ref CSIP6 </td>
+		<td>METS Profile mets/\@PROFILE </td>
+		<td>For information packages that primarily contain relational databases the value in the \@PROFILE <b>MUST</b> be \&quot;https:/ /SIARD.dilcis. eu/profile/CIT S_SIARD_repres entation.xml\&quot;</td>
+		<td>1..1 MUST </td>
+	</tr>
+	<tr>
+		<td>SIARD_13 Ref CSIP64-CSIP79 </td>
+		<td>File Pointer fileSec/file Grp/file\@csip :OTHERCONTENTINFORMATIONTYPE </td>
+		<td>If the value in mets/\@csip :OTHERCONTENTINFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1, Database_dump} then there <b>MUST</b> exist one and only one file in the fileGrp with \@USE = &quot;data&quot; with an identical value in fileSec/file Grp/file\@csip :OTHERCONTENTINFORMATIONTYPE that is used to locate the relevant database file.</td>
+		<td>1..1 MUST </td>
+	</tr>
+</tbody>
 </table>
 
 
@@ -551,70 +420,47 @@ mets/@TYPE
 
 
 <table>
-  <tr>
-   <td>ID
-   </td>
-   <td>Name and Location 
-   </td>
-   <td colspan="2" >Description and Usage
-   </td>
-   <td colspan="2" >Card & Level
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_15
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >If the value in mets/@csip:OTHERCONTENTINFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1}  then there <strong>MUST</strong> exist a file named [databaseName].siard in representations/[RepresentationName]/data
-   </td>
-   <td>1..1
-<p>
-      MUST
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_16
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >The SIARD version of the SIARD-file <strong>MUST</strong> be the same as the version provided in mets/@csip:OTHERCONTENTINFORMATIONTYPE and fileSec/fileGrp/file@csip:OTHERCONTENTINFORMATIONTYPE
-   </td>
-   <td>MUST
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_17
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >The representations/[RepresentationName]/data/[databaseName].siard <strong>SHOULD</strong> be a valid SIARD file
-   </td>
-   <td>SHOULD
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_18
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >There <strong>SHOULD</strong> be minimum one  validation report in the documentation folder for the validation of the SIARD-file
-   </td>
-   <td>1..n
-<p>
-SHOULD
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_19
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >The file name of the SIARD file representations/[RepresentationName]/data/[databaseName].siard <strong>MAY</strong> be the short database identifier of the database as specified in the &lt;dbname> element of the metadata.xml file in the SIARD file but it is not recommended.
-   </td>
-   <td>MAY
-   </td>
-  </tr>
+<thead>
+	<tr>
+		<th>ID</th>
+		<th>Name and Location</th>
+		<th>Description and
+Usage</th>
+		<th>Card &amp; Level</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>SIARD_15 </td>
+		<td> </td>
+		<td>If the value in met s/\@csip:OTHERCONT ENTINFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1} then there <b>MUST</b> exist a file named \[da tabaseName\].siard in Representations/\[Represe ntationName\]/data</td>
+		<td>1..1 MUST </td>
+	</tr>
+	<tr>
+		<td>SIARD_16 </td>
+		<td> </td>
+		<td>The SIARD version of the SIARD-file <b>MUST</b> be the same as the version provided in met s/\@csip:OTHERCONT ENTINFORMATIONTYPE and fileSec/fileGrp/fi le\@csip:OTHERCONT ENTINFORMATIONTYPE</td>
+		<td>MUST </td>
+	</tr>
+	<tr>
+		<td>SIARD_17 </td>
+		<td> </td>
+		<td>The representati ons/\[Representati onName\]/data/\[da tabaseName\].siard <b>SHOULD</b> be a valid SIARD file</td>
+		<td>SHOULD </td>
+	</tr>
+	<tr>
+		<td>SIARD_18 </td>
+		<td> </td>
+		<td>There <b>SHOULD</b> be minimum one validation report in the documentation folder for the validation of the SIARD-file</td>
+		<td>1..n SHOULD </td>
+	</tr>
+	<tr>
+		<td>SIARD_19 </td>
+		<td> </td>
+		<td>The file name of the SIARD file representati ons/\[Representati onName\]/data/\[da tabaseName\].siard <b>MAY</b> be the short database identifier of the database as specified in the \&lt;dbname\&gt; element of the metadata.xml file in the SIARD file but it is not recommended.</td>
+		<td>MAY </td>
+	</tr>
+</tbody>
 </table>
 
 
@@ -622,44 +468,33 @@ SHOULD
 ### 3.7 {Database_dump} – requirements
 
 
-    For authenticity and possible dissemination purposes, the OAIS might want to have a representation with a proprietary database dump from the original database management system.
+For authenticity and possible dissemination purposes, the OAIS might want to have a representation with a proprietary database dump from the original database management system.
 
 
 <table>
-  <tr>
-   <td>ID
-   </td>
-   <td>Name and Location 
-   </td>
-   <td colspan="2" >Description and Usage
-   </td>
-   <td colspan="2" >Card & Level
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_20
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >If the value in mets/@csip:OTHERCONTENTINFORMATIONTYPE is “Database_dump”  then there <strong>MUST</strong> exist a proprietary database dump in representations/[RepresentationName]/data
-   </td>
-   <td>1..1
-<p>
-      MUST
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_21
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >There <strong>SHOULD</strong> be preservation metadata describing the proprietary database dump
-   </td>
-   <td>1..n
-<p>
-SHOULD
-   </td>
-  </tr>
+<thead>
+	<tr>
+		<th>ID</th>
+		<th>Name and Location</th>
+		<th>Description and
+Usage</th>
+		<th>Card &amp; Level</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>SIARD_20 </td>
+		<td> </td>
+		<td>If the value in met s/\@csip:OTHERCONT ENTINFORMATIONTYPE is &quot;Database_dump&quot; then there <b>MUST</b> exist a proprietary database dump in Representations/\[Represe ntationName\]/data</td>
+		<td>1..1 MUST </td>
+	</tr>
+	<tr>
+		<td>SIARD_21 </td>
+		<td> </td>
+		<td>There <b>SHOULD</b> be preservation metadata describing the proprietary database dump</td>
+		<td>1..n SHOULD </td>
+	</tr>
+</tbody>
 </table>
 
 
@@ -674,38 +509,29 @@ In the SIARD specification from SIARD2.0 and onwards the external LOBs can be pl
 
 
 <table>
-  <tr>
-   <td>ID
-   </td>
-   <td>Name and Location 
-   </td>
-   <td colspan="2" >Description and Usage
-   </td>
-   <td colspan="2" >Card & Level
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_22
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >If a database has LOBs outside the .siard-file then these <strong>SHOULD</strong> be stored in the same representation as the .siard-file
-   </td>
-   <td>      SHOULD
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_23
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >LOBs <strong>MAY </strong>be stored in its own representation, and the value in mets/@csip:OTHERCONTENTINFORMATIONTYPE is “SIARD_lobs”.
-<p>
-For storage and preservation actions the OAIS can decide to handle LOBs in its own representation. This way there can be different representations of .siard-files that link to the same lob-representation. The complexity rises by choosing this solution and the CSIP states: “Representation level METS files should not reference files outside of their representation”. It therefore has to be a deliberate choice to allow this way of handling LOBs
-   </td>
-   <td>MAY
-   </td>
-  </tr>
+<thead>
+	<tr>
+		<th>ID</th>
+		<th>Name and Location</th>
+		<th>Description and
+Usage</th>
+		<th>Card &amp; Level</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>SIARD_22 </td>
+		<td> </td>
+		<td>If a database has LOBs outside the .siard-file then these <b>SHOULD</b> be stored in the same representation as the .siard-file</td>
+		<td>SHOULD </td>
+	</tr>
+	<tr>
+		<td>SIARD_23 </td>
+		<td> </td>
+		<td>LOBs <b>MAY</b> be stored in its own representation, and the value in met s/\@csip:OTHERCONT ENTINFORMATIONTYPE is &quot;SIARD_lobs&quot;. For storage and preservation actions the OAIS can decide to handle LOBs in its own representation. This way there can be different representations of .siard-files that link to the same l ob-representation. The complexity rises by choosing this solution and the CSIP states: &quot;Representation level METS files should not reference files outside of their representation&quot;. It therefore has to be a deliberate choice to allow this way of handling LOBs</td>
+		<td>MAY </td>
+	</tr>
+</tbody>
 </table>
 
 
@@ -719,90 +545,53 @@ There should be a submission agreement in the SIP representation that has been t
 
 
 <table>
-  <tr>
-   <td>ID
-   </td>
-   <td>Name and Location 
-   </td>
-   <td colspan="2" >Description and Usage
-   </td>
-   <td colspan="2" >Card & Level
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_23
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >There <strong>SHOULD </strong>be a submission agreement in the SIP representation that has been tailored to handle preservation of relational databases
-   </td>
-   <td>1..1
-<p>
-      SHOULD
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_24
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >The submission agreement <strong>SHOULD </strong>describe how many representations of the database that the Producer has to submit.
-   </td>
-   <td>0..1
-<p>
-      SHOULD
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_25
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >The submission agreement <strong>SHOULD </strong>describe whether the submitted representations of a database is 1:1 with the running database (Full SIARD export) or if any alterations have been made (only a subset of tables)
-   </td>
-   <td>0..1
-<p>
-      SHOULD
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_26
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >The submission agreement <strong>SHOULD </strong>list the tables that are required to be submitted to the archive and to be preserved.
-   </td>
-   <td>0..1
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_27
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >The submission agreement <strong>SHOULD </strong>list a set of SQL queries that are decided to be submitted to the archive and are to be preserved under the &lt;views>-element in metadata.xml. The SQL queries <strong>SHOULD </strong>provide the most useful queries in the database for designated communities.
-   </td>
-   <td>0..1
-<p>
-SHOULD
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_28
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >The submission agreement <strong>SHOULD </strong>list the documentation that is decided to be submitted to the archive. See 
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "7 Documentation requirements"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-<a href="#heading=h.gymrmfwdq7te">7 Documentation requirements</a> 
-   </td>
-   <td>0..1
-<p>
-SHOULD
-   </td>
-  </tr>
+<thead>
+	<tr>
+		<th>ID</th>
+		<th>Name and Location</th>
+		<th>Description and
+Usage</th>
+		<th>Card &amp; Level</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>SIARD_23 </td>
+		<td> </td>
+		<td>There <b>SHOULD</b> be a submission agreement in the SIP representation that has been tailored to handle preservation of relational databases</td>
+		<td>1..1 SHOULD </td>
+	</tr>
+	<tr>
+		<td>SIARD_24 </td>
+		<td> </td>
+		<td>The submission agreement <b>SHOULD</b> describe how many representations of the database that the Producer has to submit.</td>
+		<td>0..1 SHOULD </td>
+	</tr>
+	<tr>
+		<td>SIARD_25 </td>
+		<td> </td>
+		<td>The submission agreement <b>SHOULD</b> describe whether the submitted representations of a database is 1:1 with the running database (Full SIARD export) or if any alterations have been made (only a subset of tables)</td>
+		<td>0..1 SHOULD </td>
+	</tr>
+	<tr>
+		<td>SIARD_26 </td>
+		<td> </td>
+		<td>The submission agreement <b>SHOULD</b> list the tables that are required to be submitted to the archive and to be preserved.</td>
+		<td>0..1 </td>
+	</tr>
+	<tr>
+		<td>SIARD_27 </td>
+		<td> </td>
+		<td>The submission agreement <b>SHOULD</b> list a set of SQL queries that are decided to be submitted to the archive and are to be preserved under the \&lt;views\&gt;-element in metadata.xml. The SQL queries <b>SHOULD</b> provide the most useful queries in the database for designated communities.</td>
+		<td>0..1 SHOULD </td>
+	</tr>
+	<tr>
+		<td>SIARD_28 </td>
+		<td> </td>
+		<td>The submission agreement <b>SHOULD</b> list the documentation that is decided to be submitted to the archive. See [[7 Documentation requirements ]{.ul}](#documenta tion-requirements)</td>
+		<td>0..1 SHOULD </td>
+	</tr>
+</tbody>
 </table>
 
 
@@ -825,94 +614,54 @@ There should be documentation in the representations and/or in the information p
 
 
 <table>
-  <tr>
-   <td>ID
-   </td>
-   <td>Name and Location 
-   </td>
-   <td colspan="2" >Description and Usage
-   </td>
-   <td colspan="2" >Card & Level
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_29
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >Tables, coulumns/fields, keys, coded values  SHOULD be explained, preferably in the metadata.xml and via code tables or the SIARD file or alternatively in the Documentation folder.
-   </td>
-   <td>1..n
-<p>
-      SHOULD
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_30
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >There <strong>SHOULD </strong>be a system diagram in the Documentation folder. Preferably an Entity/Relationship Diagramme
-   </td>
-   <td>1..n
-<p>
-SHOULD
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_31
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >The (main) system-user dialogues <strong>SHOULD </strong>be documented, down to the identification of the database coulumns/fields involved in the dialogues, documented as a combination of:
-<p>
-·        Screenshots, annotated with coulumn/field descriptions, stored in the Documentation folder.
-<p>
-·        User documentation describing the system-user dialogue, stored in the Documentation folder.
-<p>
-·        Views, if available, as part of the SIARD file.
-<p>
-·        If views are not present, additional descriptions of the system (application) logic, stored in the Documentation folder. 
-   </td>
-   <td>1..n
-<p>
-SHOULD
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_32
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >Documentation of the legal context of the database and associated system <strong>SHOULD </strong>be provided in the Documentation folder.
-   </td>
-   <td>1..n
-<p>
-SHOULD
-   </td>
-  </tr>
-  <tr>
-   <td>SIARD_33
-   </td>
-   <td colspan="2" >
-   </td>
-   <td colspan="2" >There <strong>MAY </strong>be videos or screen dumps from the system as seen from the user’s point of view in the Documentation folder.
-   </td>
-   <td>1..n
-<p>
-SHOULD
-   </td>
-  </tr>
+<thead>
+	<tr>
+		<th>ID</th>
+		<th>Name and Location</th>
+		<th>Description and
+Usage</th>
+		<th>Card &amp; Level</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>SIARD_29 </td>
+		<td> </td>
+		<td>Tables, coulumns/fields, keys, coded values SHOULD be explained, preferably in the metadata.xml and via code tables or the SIARD file or alternatively in the Documentation folder.</td>
+		<td>1..n SHOULD </td>
+	</tr>
+	<tr>
+		<td>SIARD_30 </td>
+		<td> </td>
+		<td>There <b>SHOULD</b> be a system diagram in the Documentation folder. Preferably an Entity/Relationship Diagramme</td>
+		<td>1..n SHOULD </td>
+	</tr>
+	<tr>
+		<td>SIARD_31 </td>
+		<td> </td>
+		<td>The (main) system-user dialogues <b>SHOULD</b> be documented, down to the identification of the database coulumns/fields involved in the dialogues, documented as a combination of: 
+		<ul>
+<li><p>Screenshots, annotated with coulumn/field descriptions, stored in the Documentation folder.</p></li>
+<li><p>User documentation describing the system-user dialogue, stored in the Documentation folder.</p></li>
+<li><p>If views are not present, additional descriptions of the system (application) logic, stored in the Documentation folder.</p></li>
+</ul>
+	</tr>
+	<tr>
+		<td>SIARD_32 </td>
+		<td> </td>
+		<td>Documentation of the legal context of the database and associated system <b>SHOULD</b> be provided in the Documentation folder.</td>
+		<td>1..n SHOULD </td>
+	</tr>
+	<tr>
+		<td>SIARD_33 </td>
+		<td> </td>
+		<td>There <b>MAY</b> be videos or screen dumps from the system as seen from the user&#39;s point of view in the Documentation folder.</td>
+		<td>1..n SHOULD </td>
+	</tr>
+    </thead>        
 </table>
 
-
-
-## 
-            
-
-
-## 
-            Glossary
+## Glossary
 
 **Table 2: Glossary**
 
@@ -956,9 +705,9 @@ SHOULD
   </tr>
 </table>
 
+ 
 
-
-##   **Postface**
+## Postface
 
 
 <table>
@@ -1010,8 +759,6 @@ SHOULD
   </tr>
 </table>
 
-
-
 <table>
   <tr>
    <td colspan="2" ><strong>REVIEWER(S)</strong>
@@ -1036,18 +783,24 @@ SHOULD
    </td>
   </tr>
   <tr>
-   <td>
+   <td>Jaime Kaminski
    </td>
-   <td>
+   <td>Highbury/DNA
+   </td>
+  </tr>
+  <tr>
+   <td>Thomas Bolbroe
+   </td>
+   <td>The Danish National Archives
+   </td>
+  </tr>
    </td>
   </tr>
 </table>
 
-
-
 <table>
   <tr>
-   <td colspan="3" ><strong>Project co-funded by the European Commission                                                                           within the ICT Policy Support Programme</strong>
+   <td colspan="3" ><strong>Project co-funded by the European Commission within the ICT Policy Support Programme</strong>
    </td>
   </tr>
   <tr>
@@ -1072,7 +825,7 @@ SHOULD
   </tr>
 </table>
 
-
+ 
 
 
 **<span style="text-decoration:underline;">REVISION HISTORY AND STATEMENT OF ORIGINALITY</span>**
@@ -1142,4 +895,5 @@ SHOULD
    </td>
   </tr>
 </table>
+
 
