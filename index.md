@@ -149,7 +149,7 @@ The purpose of this document is to describe the Content Information Type Specifi
 
 ### 2.2 Layered data model
 
-This section introduces the structure of the data model, which is based on a layered approach for information package definitions (Figure x). The Common Specification for Information Packages (CSIP) forms the outermost layer. The general SIP, AIP and DIP specifications add, respectively, submission, archiving and dissemination information to the CSIP specification. The third layer of the model represents specific content information type specifications, such as this CITS SIARD specification. Additional layers for business-specific specifications and local variant implementations of any specification can be added. 
+This section introduces the structure of the data model, which is based on a layered approach for information package definitions (Figure 1). The Common Specification for Information Packages (CSIP) forms the outermost layer. The general SIP, AIP and DIP specifications add, respectively, submission, archiving and dissemination information to the CSIP specification. The third layer of the model represents specific content information type specifications, such as this CITS SIARD specification. Additional layers for business-specific specifications and local variant implementations of any specification can be added. 
 
  ![](pictures/Data_Model_Structure.png)
 
@@ -201,7 +201,7 @@ A visualisation of an example of a valid CITS SIARD-package is illustrated in Fi
  ![](pictures/Information_Package_folder_structure.png)
 
 
-**Figure 4: Information Package folder structure**
+**Figure 2: Information Package folder structure**
 
 
 ### 3.2 Package and Representation METS
