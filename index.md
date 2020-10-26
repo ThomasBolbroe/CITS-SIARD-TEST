@@ -660,7 +660,9 @@ Usage</th>
 	</tr>
     </thead>        
 </table>
-\newline
+
+<br/>
+
 ## Glossary
 
 **Table 2: Glossary**
