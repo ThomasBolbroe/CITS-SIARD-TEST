@@ -660,7 +660,7 @@ Usage</th>
 	</tr>
     </thead>        
 </table>
-
+\newline
 ## Glossary
 
 **Table 2: Glossary**
@@ -704,7 +704,7 @@ Usage</th>
    </td>
   </tr>
 </table>
-
+\newline
  
 
 ## Postface
