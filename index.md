@@ -132,7 +132,7 @@ A full list of contributors to this specification, as well as the revision histo
 
 **LIST OF FIGURES**
 
-Figure 1: Layered Data Model
+Figure 1: Layered Data Model (#fig1)
 
 Figure 2: Information Package structure 9
 
