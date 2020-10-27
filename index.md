@@ -503,7 +503,7 @@ Usage</th>
 	<tr>
 		<td>SIARD_23 </td>
 		<td> </td>
-		<td>LOBs <b>MAY</b> be stored in its own representation, and the value in met s/\@csip:OTHERCONT ENTINFORMATIONTYPE is &quot;SIARD_lobs&quot;. For storage and preservation actions the OAIS can decide to handle LOBs in its own representation. This way there can be different representations of .siard-files that link to the same l ob-representation. The complexity rises by choosing this solution and the CSIP states: &quot;Representation level METS files should not reference files outside of their representation&quot;. It therefore has to be a deliberate choice to allow this way of handling LOBs</td>
+		<td>LOBs <b>MAY</b> be stored in its own representation, and the value in met s/\@csip:OTHERCONT ENTINFORMATIONTYPE is &quot;SIARD_lobs&quot;. For storage and preservation actions the OAIS can decide to handle LOBs in its own representation. This way there can be different representations of .siard-files that link to the same lob-representation. The complexity rises by choosing this solution and the CSIP states: &quot;Representation level METS files should not reference files outside of their representation&quot;. It therefore has to be a deliberate choice to allow this way of handling LOBs</td>
 		<td>MAY </td>
 	</tr>
 </tbody>
