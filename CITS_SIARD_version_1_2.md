@@ -149,12 +149,12 @@ The purpose of this document is to describe the Content Information Type Specifi
 
 ### 2.2 Layered data model
 
-This section introduces the structure of the data model, which is based on a layered approach for information package definitions (Figure x). The Common Specification for Information Packages (CSIP) forms the outermost layer. The general SIP, AIP and DIP specifications add, respectively, submission, archiving and dissemination information to the CSIP specification. The third layer of the model represents specific content information type specifications, such as this CITS SIARD specification. Additional layers for business-specific specifications and local variant implementations of any specification can be added. 
+This section introduces the structure of the data model, which is based on a layered approach for information package definitions (Figure 1). The Common Specification for Information Packages (CSIP) forms the outermost layer. The general SIP, AIP and DIP specifications add, respectively, submission, archiving and dissemination information to the CSIP specification. The third layer of the model represents specific content information type specifications, such as this CITS SIARD specification. Additional layers for business-specific specifications and local variant implementations of any specification can be added. 
 
  ![](pictures/Data_Model_Structure.png)
 
-
-**Figure 1: Data Model Structure** (name=figure 1)
+<a name="fig1"></a>
+**Figure 1: Data Model Structure** 
 
 Every level in the data model structure inherits metadata entities and elements from the higher levels. In order to increase adoption, a flexible schema has been developed. This will allow for extension points where the schema in each layer can be extended to accommodate additional information on the next specific layer until, finally, the local implementation can add specific entities or metadata elements to satisfy very specific local needs. Extension points can be implemented by:
 
@@ -195,13 +195,13 @@ This CITS SIARD specification has been written during the eArchiving building bl
 
 ###   3.1 Folder structure and example
 
-A visualisation of an example of a valid CITS SIARD-package is illustrated in Figure 4. The example and other examples can also be found as downloadable packages at this link: [https://github.com/DILCISBoard/SIARD-CITS/tree/master/examples](https://github.com/DILCISBoard/SIARD-CITS/tree/master/examples). The example is an information package where a database has LOBs that resides outside the .siard-file. See LOB details under section [3.8 {SIARD_lobs} -- requirements](#_sxv4sbhj2v7i) 14
+A visualisation of an example of a valid CITS SIARD-package is illustrated in Figure 2. The example and other examples can also be found as downloadable packages at this link: [https://github.com/DILCISBoard/SIARD-CITS/tree/master/examples](https://github.com/DILCISBoard/SIARD-CITS/tree/master/examples). The example is an information package where a database has LOBs that resides outside the .siard-file. See LOB details under section [3.8 {SIARD_lobs} -- requirements](#38-siard_lobs--requirements)
 
 
  ![](pictures/Information_Package_folder_structure.png)
 
 
-**Figure 4: Information Package folder structure**
+**Figure 2: Information Package folder structure**
 
 
 ### 3.2 Package and Representation METS
@@ -262,13 +262,13 @@ and Usage</th>
 	<tr>
 		<td>SIARD_2 Ref CSIP2 </td>
 		<td>Type mets/\@TYPE </td>
-		<td>For information packages that primarily contain relational databases the value in Package mets/\@TYPE <b>MUST</b> be &quot;Databases&quot; as taken from the CSIP Vocabulary for [Content Category] (about:blank).</td>
+		<td>For information packages that primarily contain relational databases the value in Package mets/\@TYPE <b>MUST</b> be &quot;Databases&quot; as taken from the CSIP Vocabulary for Content Category.</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_3 Ref CSIP4 </td>
 		<td>Content Information Type Specification mets/\ @csip:CONTENTINFORMATIONTYPE </td>
-		<td>For information packages that primarily contain relational databases the value in Package mets/\ @csip:CONTENTINFORMATIONTYPE <b>MUST</b> be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] (about:blank).</td>
+		<td>For information packages that primarily contain relational databases the value in Package mets/\ @csip:CONTENTINFORMATIONTYPE <b>MUST</b> be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for Content Information Type.</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
@@ -286,7 +286,7 @@ and Usage</th>
 	<tr>
 		<td>SIARD_6 Ref CSIP62 </td>
 		<td>fileSec Representation Content Information Type Specification mets/file Sec/fileGrp\[\ @USE=\&#39;Representations\&#39;\]/\ @csip:CONTENTINFORMATIONTYPE </td>
-		<td>There <b>MUST</b> be a minimum of one mets/file Sec/fileGrp\[\ @USE=\&#39;Representations\&#39;\]/\ @csip:CONTENTINFORMATIONTYPE with the value &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type ](about:blank) that direct to the representation METS.xml in the representation containing a relational database.</td>
+		<td>There <b>MUST</b> be a minimum of one mets/file Sec/fileGrp\[\ @USE=\&#39;Representations\&#39;\]/\ @csip:CONTENTINFORMATIONTYPE with the value &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for Content Information Type that direct to the representation METS.xml in the representation containing a relational database.</td>
 		<td>1..n MUST </td>
 	</tr>
 	<tr>
@@ -319,6 +319,7 @@ Example 1: Package METS element example.
 ### 3.4 Representation METS requirements
 
 
+
 <table>
 <thead>
 	<tr>
@@ -334,13 +335,13 @@ and Usage</th>
 	<tr>
 		<td>SIARD_9 Ref CSIP2 </td>
 		<td>Type mets/\@TYPE </td>
-		<td>For representations that primarily contain relational databases the value in Package mets/\@TYPE <b>MUST</b> be &quot;Databases&quot; as taken from the CSIP Vocabulary for [Content Category] (about:blank).</td>
+		<td>For representations that primarily contain relational databases the value in Package mets/\@TYPE <b>MUST</b> be &quot;Databases&quot; as taken from the CSIP Vocabulary for [Content Category] .</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_10 Ref CSIP4 </td>
 		<td>Content Information Type Specification mets/\ @csip:CONTENTINFORMATIONTYPE </td>
-		<td>For representations that primarily contain relational databases and that conforms to CITS SIARD the value in Package mets/\ @csip:CONTENTINFORMATIONTYPE <b>MUST</b> be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] (about:blank).</td>
+		<td>For representations that primarily contain relational databases and that conforms to CITS SIARD the value in Package mets/\ @csip:CONTENTINFORMATIONTYPE <b>MUST</b> be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] .</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
@@ -366,50 +367,24 @@ and Usage</th>
 
 
 
+
 ### 3.5 METS requirements between Package and Representation
-
-
 <table>
 <thead>
 	<tr>
 		<th>ID</th>
-		<th>Name and
-Location</th>
-		<th>Description
-and Usage</th>
+		<th>Name and Location</th>
+		<th>Description and
+Usage</th>
 		<th>Card &amp; Level</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>SIARD_9 Ref CSIP2 </td>
-		<td>Type mets/\@TYPE </td>
-		<td>For representations that primarily contain relational databases the value in Package mets/\@TYPE <b>MUST</b> be &quot;Databases&quot; as taken from the CSIP Vocabulary for [Content Category] (about:blank).</td>
-		<td>1..1 MUST </td>
-	</tr>
-	<tr>
-		<td>SIARD_10 Ref CSIP4 </td>
-		<td>Content Information Type Specification mets/\ @csip:CONTENTINFORMATIONTYPE </td>
-		<td>For representations that primarily contain relational databases and that conforms to CITS SIARD the value in Package mets/\ @csip:CONTENTINFORMATIONTYPE <b>MUST</b> be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] (about:blank).</td>
-		<td>1..1 MUST </td>
-	</tr>
-	<tr>
-		<td>SIARD_11 Ref CSIP5 </td>
-		<td>Other Content Information Type Specification mets/\@csip :OTHERCONTENTINFORMATIONTYPE </td>
-		<td>For representations where mets/\ @csip:CONTENTINFORMATIONTYPE has the value &quot;CITS_SIARD&quot; then mets/\@csip :OTHERCONTENTINFORMATIONTYPE <b>MUST</b> have a value taken from the vocabulary {SIARD_1.0; SIARD_2.0, SIARD_2.1, Database_dump}</td>
-		<td>0..0 NOT </td>
-	</tr>
-	<tr>
-		<td>SIARD_12 Ref CSIP6 </td>
-		<td>METS Profile mets/\@PROFILE </td>
-		<td>For information packages that primarily contain relational databases the value in the \@PROFILE <b>MUST</b> be \&quot;https:/ /SIARD.dilcis. eu/profile/CIT S_SIARD_repres entation.xml\&quot;</td>
-		<td>1..1 MUST </td>
-	</tr>
-	<tr>
-		<td>SIARD_13 Ref CSIP64-CSIP79 </td>
-		<td>File Pointer fileSec/file Grp/file\@csip :OTHERCONTENTINFORMATIONTYPE </td>
-		<td>If the value in mets/\@csip :OTHERCONTENTINFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1, Database_dump} then there <b>MUST</b> exist one and only one file in the fileGrp with \@USE = &quot;data&quot; with an identical value in fileSec/file Grp/file\@csip :OTHERCONTENTINFORMATIONTYPE that is used to locate the relevant database file.</td>
-		<td>1..1 MUST </td>
+		<td>SIARD_14</td>
+		<td>Typemets/\@TYPE</td>
+		<td>If the value in representation mets/\@csip:OTHERCONT ENTINFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1, Database_dump} then the Package METS.xml fileGrp who refers to the Package METS.xml <b>MUST</b> have the same value.</td>
+		<td>1..1MUST</td>
 	</tr>
 </tbody>
 </table>
@@ -433,7 +408,7 @@ Usage</th>
 	<tr>
 		<td>SIARD_15 </td>
 		<td> </td>
-		<td>If the value in met s/\@csip:OTHERCONT ENTINFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1} then there <b>MUST</b> exist a file named \[da tabaseName\].siard in Representations/\[Represe ntationName\]/data</td>
+		<td>If the value in met s/\@csip:OTHERCONT ENTINFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1} then there <b>MUST</b> exist a file named \[databaseName\].siard in Representations/\[RepresentationName\]/data</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
@@ -445,7 +420,7 @@ Usage</th>
 	<tr>
 		<td>SIARD_17 </td>
 		<td> </td>
-		<td>The representati ons/\[Representati onName\]/data/\[da tabaseName\].siard <b>SHOULD</b> be a valid SIARD file</td>
+		<td>The representati ons/\[RepresentationName\]/data/\[databaseName\].siard <b>SHOULD</b> be a valid SIARD file</td>
 		<td>SHOULD </td>
 	</tr>
 	<tr>
@@ -457,7 +432,7 @@ Usage</th>
 	<tr>
 		<td>SIARD_19 </td>
 		<td> </td>
-		<td>The file name of the SIARD file representati ons/\[Representati onName\]/data/\[da tabaseName\].siard <b>MAY</b> be the short database identifier of the database as specified in the \&lt;dbname\&gt; element of the metadata.xml file in the SIARD file but it is not recommended.</td>
+		<td>The file name of the SIARD file representati ons/\[RepresentationName\]/data/\[databaseName\].siard <b>MAY</b> be the short database identifier of the database as specified in the \&lt;dbname\&gt; element of the metadata.xml file in the SIARD file but it is not recommended.</td>
 		<td>MAY </td>
 	</tr>
 </tbody>
@@ -528,7 +503,7 @@ Usage</th>
 	<tr>
 		<td>SIARD_23 </td>
 		<td> </td>
-		<td>LOBs <b>MAY</b> be stored in its own representation, and the value in met s/\@csip:OTHERCONT ENTINFORMATIONTYPE is &quot;SIARD_lobs&quot;. For storage and preservation actions the OAIS can decide to handle LOBs in its own representation. This way there can be different representations of .siard-files that link to the same l ob-representation. The complexity rises by choosing this solution and the CSIP states: &quot;Representation level METS files should not reference files outside of their representation&quot;. It therefore has to be a deliberate choice to allow this way of handling LOBs</td>
+		<td>LOBs <b>MAY</b> be stored in its own representation, and the value in met s/\@csip:OTHERCONT ENTINFORMATIONTYPE is &quot;SIARD_lobs&quot;. For storage and preservation actions the OAIS can decide to handle LOBs in its own representation. This way there can be different representations of .siard-files that link to the same lob-representation. The complexity rises by choosing this solution and the CSIP states: &quot;Representation level METS files should not reference files outside of their representation&quot;. It therefore has to be a deliberate choice to allow this way of handling LOBs</td>
 		<td>MAY </td>
 	</tr>
 </tbody>
@@ -588,7 +563,7 @@ Usage</th>
 	<tr>
 		<td>SIARD_28 </td>
 		<td> </td>
-		<td>The submission agreement <b>SHOULD</b> list the documentation that is decided to be submitted to the archive. See [[7 Documentation requirements ]{.ul}](#documenta tion-requirements)</td>
+		<td>The submission agreement <b>SHOULD</b> list the documentation that is decided to be submitted to the archive. See [[7 Documentation requirements ]{.ul}](#7-documentation-requirements)</td>
 		<td>0..1 SHOULD </td>
 	</tr>
 </tbody>
@@ -645,7 +620,7 @@ Usage</th>
 <li><p>User documentation describing the system-user dialogue, stored in the Documentation folder.</p></li>
 <li><p>If views are not present, additional descriptions of the system (application) logic, stored in the Documentation folder.</p></li>
 </ul>
-	</tr>
+	<td>1..n SHOULD </td>
 	<tr>
 		<td>SIARD_32 </td>
 		<td> </td>
@@ -660,6 +635,8 @@ Usage</th>
 	</tr>
     </thead>        
 </table>
+
+<br/>
 
 ## Glossary
 
