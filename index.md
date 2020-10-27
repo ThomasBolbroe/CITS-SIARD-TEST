@@ -620,6 +620,7 @@ Usage</th>
 <li><p>User documentation describing the system-user dialogue, stored in the Documentation folder.</p></li>
 <li><p>If views are not present, additional descriptions of the system (application) logic, stored in the Documentation folder.</p></li>
 </ul>
+	<td>1..n SHOULD </td>
 	<tr>
 		<td>SIARD_32 </td>
 		<td> </td>
