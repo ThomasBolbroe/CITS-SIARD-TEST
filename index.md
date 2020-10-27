@@ -408,7 +408,7 @@ Usage</th>
 	<tr>
 		<td>SIARD_15 </td>
 		<td> </td>
-		<td>If the value in met s/\@csip:OTHERCONT ENTINFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1} then there <b>MUST</b> exist a file named \[da tabaseName\].siard in Representations/\[Represe ntationName\]/data</td>
+		<td>If the value in met s/\@csip:OTHERCONT ENTINFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1} then there <b>MUST</b> exist a file named \[databaseName\].siard in Representations/\[RepresentationName\]/data</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
@@ -420,7 +420,7 @@ Usage</th>
 	<tr>
 		<td>SIARD_17 </td>
 		<td> </td>
-		<td>The representati ons/\[Representati onName\]/data/\[da tabaseName\].siard <b>SHOULD</b> be a valid SIARD file</td>
+		<td>The representati ons/\[RepresentationName\]/data/\[databaseName\].siard <b>SHOULD</b> be a valid SIARD file</td>
 		<td>SHOULD </td>
 	</tr>
 	<tr>
@@ -432,7 +432,7 @@ Usage</th>
 	<tr>
 		<td>SIARD_19 </td>
 		<td> </td>
-		<td>The file name of the SIARD file representati ons/\[Representati onName\]/data/\[da tabaseName\].siard <b>MAY</b> be the short database identifier of the database as specified in the \&lt;dbname\&gt; element of the metadata.xml file in the SIARD file but it is not recommended.</td>
+		<td>The file name of the SIARD file representati ons/\[RepresentationName\]/data/\[databaseName\].siard <b>MAY</b> be the short database identifier of the database as specified in the \&lt;dbname\&gt; element of the metadata.xml file in the SIARD file but it is not recommended.</td>
 		<td>MAY </td>
 	</tr>
 </tbody>
