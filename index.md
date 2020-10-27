@@ -132,7 +132,7 @@ A full list of contributors to this specification, as well as the revision histo
 
 **LIST OF FIGURES**
 
-Figure 1: Layered Data Model (#fig1)
+Figure 1: Layered Data Model
 
 Figure 2: Information Package structure 9
 
@@ -195,7 +195,7 @@ This CITS SIARD specification has been written during the eArchiving building bl
 
 ###   3.1 Folder structure and example
 
-A visualisation of an example of a valid CITS SIARD-package is illustrated in Figure 4. The example and other examples can also be found as downloadable packages at this link: [https://github.com/DILCISBoard/SIARD-CITS/tree/master/examples](https://github.com/DILCISBoard/SIARD-CITS/tree/master/examples). The example is an information package where a database has LOBs that resides outside the .siard-file. See LOB details under section [3.8 {SIARD_lobs} -- requirements](#_sxv4sbhj2v7i) 14
+A visualisation of an example of a valid CITS SIARD-package is illustrated in Figure 2. The example and other examples can also be found as downloadable packages at this link: [https://github.com/DILCISBoard/SIARD-CITS/tree/master/examples](https://github.com/DILCISBoard/SIARD-CITS/tree/master/examples). The example is an information package where a database has LOBs that resides outside the .siard-file. See LOB details under section [3.8 {SIARD_lobs} -- requirements](#38-siard_lobs--requirements)
 
 
  ![](pictures/Information_Package_folder_structure.png)
