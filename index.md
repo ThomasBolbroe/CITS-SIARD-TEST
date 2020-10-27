@@ -262,13 +262,13 @@ and Usage</th>
 	<tr>
 		<td>SIARD_2 Ref CSIP2 </td>
 		<td>Type mets/\@TYPE </td>
-		<td>For information packages that primarily contain relational databases the value in Package mets/\@TYPE <b>MUST</b> be &quot;Databases&quot; as taken from the CSIP Vocabulary for [Content Category] ().</td>
+		<td>For information packages that primarily contain relational databases the value in Package mets/\@TYPE <b>MUST</b> be &quot;Databases&quot; as taken from the CSIP Vocabulary for [Content Category] .</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_3 Ref CSIP4 </td>
 		<td>Content Information Type Specification mets/\ @csip:CONTENTINFORMATIONTYPE </td>
-		<td>For information packages that primarily contain relational databases the value in Package mets/\ @csip:CONTENTINFORMATIONTYPE <b>MUST</b> be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] ().</td>
+		<td>For information packages that primarily contain relational databases the value in Package mets/\ @csip:CONTENTINFORMATIONTYPE <b>MUST</b> be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] .</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
@@ -286,7 +286,7 @@ and Usage</th>
 	<tr>
 		<td>SIARD_6 Ref CSIP62 </td>
 		<td>fileSec Representation Content Information Type Specification mets/file Sec/fileGrp\[\ @USE=\&#39;Representations\&#39;\]/\ @csip:CONTENTINFORMATIONTYPE </td>
-		<td>There <b>MUST</b> be a minimum of one mets/file Sec/fileGrp\[\ @USE=\&#39;Representations\&#39;\]/\ @csip:CONTENTINFORMATIONTYPE with the value &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type ]() that direct to the representation METS.xml in the representation containing a relational database.</td>
+		<td>There <b>MUST</b> be a minimum of one mets/file Sec/fileGrp\[\ @USE=\&#39;Representations\&#39;\]/\ @csip:CONTENTINFORMATIONTYPE with the value &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type ] that direct to the representation METS.xml in the representation containing a relational database.</td>
 		<td>1..n MUST </td>
 	</tr>
 	<tr>
@@ -340,7 +340,7 @@ and Usage</th>
 	<tr>
 		<td>SIARD_10 Ref CSIP4 </td>
 		<td>Content Information Type Specification mets/\ @csip:CONTENTINFORMATIONTYPE </td>
-		<td>For representations that primarily contain relational databases and that conforms to CITS SIARD the value in Package mets/\ @csip:CONTENTINFORMATIONTYPE <b>MUST</b> be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] ().</td>
+		<td>For representations that primarily contain relational databases and that conforms to CITS SIARD the value in Package mets/\ @csip:CONTENTINFORMATIONTYPE <b>MUST</b> be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] .</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
@@ -384,13 +384,13 @@ and Usage</th>
 	<tr>
 		<td>SIARD_9 Ref CSIP2 </td>
 		<td>Type mets/\@TYPE </td>
-		<td>For representations that primarily contain relational databases the value in Package mets/\@TYPE <b>MUST</b> be &quot;Databases&quot; as taken from the CSIP Vocabulary for [Content Category] ().</td>
+		<td>For representations that primarily contain relational databases the value in Package mets/\@TYPE <b>MUST</b> be &quot;Databases&quot; as taken from the CSIP Vocabulary for [Content Category] .</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_10 Ref CSIP4 </td>
 		<td>Content Information Type Specification mets/\ @csip:CONTENTINFORMATIONTYPE </td>
-		<td>For representations that primarily contain relational databases and that conforms to CITS SIARD the value in Package mets/\ @csip:CONTENTINFORMATIONTYPE <b>MUST</b> be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] ().</td>
+		<td>For representations that primarily contain relational databases and that conforms to CITS SIARD the value in Package mets/\ @csip:CONTENTINFORMATIONTYPE <b>MUST</b> be &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for [Content Information Type] .</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
