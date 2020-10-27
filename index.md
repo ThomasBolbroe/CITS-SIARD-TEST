@@ -369,7 +369,25 @@ and Usage</th>
 
 
 ### 3.5 METS requirements between Package and Representation
-
+<table>
+<thead>
+	<tr>
+		<th>ID</th>
+		<th>Name and Location</th>
+		<th>Description and
+Usage</th>
+		<th>Card &amp; Level</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>SIARD_14</td>
+		<td>Typemets/\@TYPE</td>
+		<td>If the value in representation mets/\@csip:OTHERCONT ENTINFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1, Database_dump} then the Package METS.xml fileGrp who refers to the Package METS.xml <b>MUST</b> have the same value.</td>
+		<td>1..1MUST</td>
+	</tr>
+</tbody>
+</table>
 
 
 
