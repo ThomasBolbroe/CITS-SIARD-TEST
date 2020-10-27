@@ -5,6 +5,7 @@ relative_links:
   collections: true
 include:
   - README.md
+  - index.md
 redcarpet:
 extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data", "tables", "hard_wrap", "lax_spacing"]
   
