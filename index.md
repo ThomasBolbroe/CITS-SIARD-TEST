@@ -280,25 +280,25 @@ and Usage</th>
 	<tr>
 		<td>SIARD_5 Ref CSIP6 </td>
 		<td>METS Profile mets/@PROFILE </td>
-		<td>For information packages that primarily contain relational databases the value in the \@PROFILE <b>MUST</b> be \&quot;https: //SIARD.dilcis .eu/profile/CI TS_SIARD.xml\&quot;</td>
+		<td>For information packages that primarily contain relational databases the value in the @PROFILE <b>MUST</b> be &quot;https: //SIARD.dilcis .eu/profile/CI TS_SIARD.xml&quot;</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_6 Ref CSIP62 </td>
-		<td>fileSec Representation Content Information Type Specification mets/file Sec/fileGrp\[\ @USE=\&#39;Representations\&#39;\]/ @csip:CONTENTINFORMATIONTYPE </td>
-		<td>There <b>MUST</b> be a minimum of one mets/file Sec/fileGrp\[\ @USE=\&#39;Representations\&#39;\]/ @csip:CONTENTINFORMATIONTYPE with the value &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for Content Information Type that direct to the representation METS.xml in the representation containing a relational database.</td>
+		<td>fileSec Representation Content Information Type Specification mets/file Sec/fileGrp[ @USE=&#39;Representations&#39;]/ @csip:CONTENTINFORMATIONTYPE </td>
+		<td>There <b>MUST</b> be a minimum of one mets/file Sec/fileGrp[ @USE=&#39;Representations&#39;]/ @csip:CONTENTINFORMATIONTYPE with the value &quot;CITS_SIARD&quot; as taken from the CSIP Vocabulary for Content Information Type that direct to the representation METS.xml in the representation containing a relational database.</td>
 		<td>1..n MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_7 Ref CSIP63 </td>
-		<td>fileSec Other Content Information Type Specification mets/fileSec /fileGrp\[\@cs ip:CONTENTINFO RMATIONTYPE=\&#39; CITS_SIARD \&#39;\]/@csip :OTHERCONTENTINFORMATIONTYPE </td>
-		<td>For any mets/file Sec/fileGrp\[\ @csip:CONTENTINFORMATIONTYPE with the value &quot;CITS_SIARD&quot; there <b>MUST</b> be a \@csip :OTHERCONTENTINFORMATIONTYPE attribute with a value taken from the vocabulary {SIARD_1.0; SIARD_2.0, SIARD_2.1, D atabase_dump}.</td>
+		<td>fileSec Other Content Information Type Specification mets/fileSec/fileGrp[@cs ip:CONTENTINFORMATIONTYPE=&#39; CITS_SIARD &#39;]/@csip :OTHERCONTENTINFORMATIONTYPE </td>
+		<td>For any mets/file Sec/fileGrp[ @csip:CONTENTINFORMATIONTYPE with the value &quot;CITS_SIARD&quot; there <b>MUST</b> be a @csip :OTHERCONTENTINFORMATIONTYPE attribute with a value taken from the vocabulary {SIARD_1.0; SIARD_2.0, SIARD_2.1, D atabase_dump}.</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_8 Ref C SIP105-CSIP112 </td>
 		<td>StructMap METS pointer </td>
-		<td>For any fileGrp/ @csip:CONTENTINFORMATIONTYPE with the value &quot;CITS_SIARD&quot; there <b>MUST</b> be a corresponding \@div- representation in the StructMap-element</td>
+		<td>For any fileGrp/ @csip:CONTENTINFORMATIONTYPE with the value &quot;CITS_SIARD&quot; there <b>MUST</b> be a corresponding @div- representation in the StructMap-element</td>
 		<td>1..1 MUST </td>
 	</tr>
 </tbody>
@@ -353,13 +353,13 @@ and Usage</th>
 	<tr>
 		<td>SIARD_12 Ref CSIP6 </td>
 		<td>METS Profile mets/@PROFILE </td>
-		<td>For information packages that primarily contain relational databases the value in the \@PROFILE <b>MUST</b> be \&quot;https:/ /SIARD.dilcis. eu/profile/CIT S_SIARD_repres entation.xml\&quot;</td>
+		<td>For information packages that primarily contain relational databases the value in the @PROFILE <b>MUST</b> be &quot;https:/ /SIARD.dilcis. eu/profile/CIT S_SIARD_repres entation.xml&quot;</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_13 Ref CSIP64-CSIP79 </td>
-		<td>File Pointer fileSec/file Grp/file\@csip :OTHERCONTENTINFORMATIONTYPE </td>
-		<td>If the value in mets/@csip :OTHERCONTENTINFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1, Database_dump} then there <b>MUST</b> exist one and only one file in the fileGrp with \@USE = &quot;data&quot; with an identical value in fileSec/file Grp/file\@csip :OTHERCONTENTINFORMATIONTYPE that is used to locate the relevant database file.</td>
+		<td>File Pointer fileSec/file Grp/file@csip :OTHERCONTENTINFORMATIONTYPE </td>
+		<td>If the value in mets/@csip :OTHERCONTENTINFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1, Database_dump} then there <b>MUST</b> exist one and only one file in the fileGrp with @USE = &quot;data&quot; with an identical value in fileSec/file Grp/file@csip :OTHERCONTENTINFORMATIONTYPE that is used to locate the relevant database file.</td>
 		<td>1..1 MUST </td>
 	</tr>
 </tbody>
@@ -408,19 +408,19 @@ Usage</th>
 	<tr>
 		<td>SIARD_15 </td>
 		<td> </td>
-		<td>If the value in mets/@csip:OTHERCONT ENTINFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1} then there <b>MUST</b> exist a file named \[databaseName\].siard in Representations/[RepresentationName]/data</td>
+		<td>If the value in mets/@csip:OTHERCONT ENTINFORMATIONTYPE is {SIARD_1.0, SIARD2.0, SIARD2.1} then there <b>MUST</b> exist a file named [databaseName].siard in Representations/[RepresentationName]/data</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_16 </td>
 		<td> </td>
-		<td>The SIARD version of the SIARD-file <b>MUST</b> be the same as the version provided in mets/@csip:OTHERCONT ENTINFORMATIONTYPE and fileSec/fileGrp/fi le\@csip:OTHERCONT ENTINFORMATIONTYPE</td>
+		<td>The SIARD version of the SIARD-file <b>MUST</b> be the same as the version provided in mets/@csip:OTHERCONT ENTINFORMATIONTYPE and fileSec/fileGrp/fi le@csip:OTHERCONT ENTINFORMATIONTYPE</td>
 		<td>MUST </td>
 	</tr>
 	<tr>
 		<td>SIARD_17 </td>
 		<td> </td>
-		<td>The representati ons/[RepresentationName\]/data/[databaseName\].siard <b>SHOULD</b> be a valid SIARD file</td>
+		<td>The representati ons/[RepresentationName]/data/[databaseName].siard <b>SHOULD</b> be a valid SIARD file</td>
 		<td>SHOULD </td>
 	</tr>
 	<tr>
@@ -432,7 +432,7 @@ Usage</th>
 	<tr>
 		<td>SIARD_19 </td>
 		<td> </td>
-		<td>The file name of the SIARD file representati ons/[RepresentationName\]/data/[databaseName\].siard <b>MAY</b> be the short database identifier of the database as specified in the \&lt;dbname\&gt; element of the metadata.xml file in the SIARD file but it is not recommended.</td>
+		<td>The file name of the SIARD file representati ons/[RepresentationName]/data/[databaseName].siard <b>MAY</b> be the short database identifier of the database as specified in the &lt;dbname&gt; element of the metadata.xml file in the SIARD file but it is not recommended.</td>
 		<td>MAY </td>
 	</tr>
 </tbody>
@@ -460,7 +460,7 @@ Usage</th>
 	<tr>
 		<td>SIARD_20 </td>
 		<td> </td>
-		<td>If the value in mets/@csip:OTHERCONT ENTINFORMATIONTYPE is &quot;Database_dump&quot; then there <b>MUST</b> exist a proprietary database dump in Representations/[Represe ntationName\]/data</td>
+		<td>If the value in mets/@csip:OTHERCONTENTINFORMATIONTYPE is &quot;Database_dump&quot; then there <b>MUST</b> exist a proprietary database dump in Representations/[RepresentationName]/data</td>
 		<td>1..1 MUST </td>
 	</tr>
 	<tr>
@@ -503,7 +503,7 @@ Usage</th>
 	<tr>
 		<td>SIARD_23 </td>
 		<td> </td>
-		<td>LOBs <b>MAY</b> be stored in its own representation, and the value in mets/@csip:OTHERCONT ENTINFORMATIONTYPE is &quot;SIARD_lobs&quot;. For storage and preservation actions the OAIS can decide to handle LOBs in its own representation. This way there can be different representations of .siard-files that link to the same lob-representation. The complexity rises by choosing this solution and the CSIP states: &quot;Representation level METS files should not reference files outside of their representation&quot;. It therefore has to be a deliberate choice to allow this way of handling LOBs</td>
+		<td>LOBs <b>MAY</b> be stored in its own representation, and the value in mets/@csip:OTHERCONTENTINFORMATIONTYPE is &quot;SIARD_lobs&quot;. For storage and preservation actions the OAIS can decide to handle LOBs in its own representation. This way there can be different representations of .siard-files that link to the same lob-representation. The complexity rises by choosing this solution and the CSIP states: &quot;Representation level METS files should not reference files outside of their representation&quot;. It therefore has to be a deliberate choice to allow this way of handling LOBs</td>
 		<td>MAY </td>
 	</tr>
 </tbody>
@@ -557,7 +557,7 @@ Usage</th>
 	<tr>
 		<td>SIARD_27 </td>
 		<td> </td>
-		<td>The submission agreement <b>SHOULD</b> list a set of SQL queries that are decided to be submitted to the archive and are to be preserved under the \&lt;views\&gt;-element in metadata.xml. The SQL queries <b>SHOULD</b> provide the most useful queries in the database for designated communities.</td>
+		<td>The submission agreement <b>SHOULD</b> list a set of SQL queries that are decided to be submitted to the archive and are to be preserved under the &lt;views&gt;-element in metadata.xml. The SQL queries <b>SHOULD</b> provide the most useful queries in the database for designated communities.</td>
 		<td>0..1 SHOULD </td>
 	</tr>
 	<tr>
